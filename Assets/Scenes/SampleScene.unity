@@ -1,0 +1,4950 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!29 &1
+OcclusionCullingSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_OcclusionBakeSettings:
+    smallestOccluder: 5
+    smallestHole: 0.25
+    backfaceThreshold: 100
+  m_SceneGUID: 00000000000000000000000000000000
+  m_OcclusionCullingData: {fileID: 0}
+--- !u!104 &2
+RenderSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 9
+  m_Fog: 0
+  m_FogColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+  m_FogMode: 3
+  m_FogDensity: 0.01
+  m_LinearFogStart: 0
+  m_LinearFogEnd: 300
+  m_AmbientSkyColor: {r: 0.212, g: 0.227, b: 0.259, a: 1}
+  m_AmbientEquatorColor: {r: 0.114, g: 0.125, b: 0.133, a: 1}
+  m_AmbientGroundColor: {r: 0.047, g: 0.043, b: 0.035, a: 1}
+  m_AmbientIntensity: 1
+  m_AmbientMode: 0
+  m_SubtractiveShadowColor: {r: 0.42, g: 0.478, b: 0.627, a: 1}
+  m_SkyboxMaterial: {fileID: 10304, guid: 0000000000000000f000000000000000, type: 0}
+  m_HaloStrength: 0.5
+  m_FlareStrength: 1
+  m_FlareFadeSpeed: 3
+  m_HaloTexture: {fileID: 0}
+  m_SpotCookie: {fileID: 10001, guid: 0000000000000000e000000000000000, type: 0}
+  m_DefaultReflectionMode: 0
+  m_DefaultReflectionResolution: 128
+  m_ReflectionBounces: 1
+  m_ReflectionIntensity: 1
+  m_CustomReflection: {fileID: 0}
+  m_Sun: {fileID: 0}
+  m_UseRadianceAmbientProbe: 0
+--- !u!157 &3
+LightmapSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 12
+  m_GIWorkflowMode: 1
+  m_GISettings:
+    serializedVersion: 2
+    m_BounceScale: 1
+    m_IndirectOutputScale: 1
+    m_AlbedoBoost: 1
+    m_EnvironmentLightingMode: 0
+    m_EnableBakedLightmaps: 1
+    m_EnableRealtimeLightmaps: 0
+  m_LightmapEditorSettings:
+    serializedVersion: 12
+    m_Resolution: 2
+    m_BakeResolution: 40
+    m_AtlasSize: 1024
+    m_AO: 0
+    m_AOMaxDistance: 1
+    m_CompAOExponent: 1
+    m_CompAOExponentDirect: 0
+    m_ExtractAmbientOcclusion: 0
+    m_Padding: 2
+    m_LightmapParameters: {fileID: 0}
+    m_LightmapsBakeMode: 1
+    m_TextureCompression: 1
+    m_FinalGather: 0
+    m_FinalGatherFiltering: 1
+    m_FinalGatherRayCount: 256
+    m_ReflectionCompression: 2
+    m_MixedBakeMode: 2
+    m_BakeBackend: 1
+    m_PVRSampling: 1
+    m_PVRDirectSampleCount: 32
+    m_PVRSampleCount: 512
+    m_PVRBounces: 2
+    m_PVREnvironmentSampleCount: 256
+    m_PVREnvironmentReferencePointCount: 2048
+    m_PVRFilteringMode: 1
+    m_PVRDenoiserTypeDirect: 1
+    m_PVRDenoiserTypeIndirect: 1
+    m_PVRDenoiserTypeAO: 1
+    m_PVRFilterTypeDirect: 0
+    m_PVRFilterTypeIndirect: 0
+    m_PVRFilterTypeAO: 0
+    m_PVREnvironmentMIS: 1
+    m_PVRCulling: 1
+    m_PVRFilteringGaussRadiusDirect: 1
+    m_PVRFilteringGaussRadiusIndirect: 5
+    m_PVRFilteringGaussRadiusAO: 2
+    m_PVRFilteringAtrousPositionSigmaDirect: 0.5
+    m_PVRFilteringAtrousPositionSigmaIndirect: 2
+    m_PVRFilteringAtrousPositionSigmaAO: 1
+    m_ExportTrainingData: 0
+    m_TrainingDataDestination: TrainingData
+    m_LightProbeSampleCountMultiplier: 4
+  m_LightingDataAsset: {fileID: 0}
+  m_LightingSettings: {fileID: 0}
+--- !u!196 &4
+NavMeshSettings:
+  serializedVersion: 2
+  m_ObjectHideFlags: 0
+  m_BuildSettings:
+    serializedVersion: 3
+    agentTypeID: 0
+    agentRadius: 0.5
+    agentHeight: 2
+    agentSlope: 45
+    agentClimb: 0.4
+    ledgeDropHeight: 0
+    maxJumpAcrossDistance: 0
+    minRegionArea: 2
+    manualCellSize: 0
+    cellSize: 0.16666667
+    manualTileSize: 0
+    tileSize: 256
+    buildHeightMesh: 0
+    maxJobWorkers: 0
+    preserveTilesOutsideBounds: 0
+    debug:
+      m_Flags: 0
+  m_NavMeshData: {fileID: 0}
+--- !u!114 &129121526
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1788976945}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0dbf27d230a46b643baa2473b0e1521f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  partName: Anterior Cardiac Vein
+--- !u!64 &129121527
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1788976945}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 4582587813673780109, guid: 0de72b2d3b4a19642bb1cccb02572084, type: 3}
+--- !u!114 &150093170
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1788976984}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0dbf27d230a46b643baa2473b0e1521f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  partName: Right Pulmonary Veins
+--- !u!64 &150093171
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1788976984}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 1886267715279935241, guid: 0de72b2d3b4a19642bb1cccb02572084, type: 3}
+--- !u!114 &150221461
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1788976950}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0dbf27d230a46b643baa2473b0e1521f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  partName: Anterior Cardiac Vein
+--- !u!64 &150221462
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1788976950}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -8162240518686071670, guid: 0de72b2d3b4a19642bb1cccb02572084, type: 3}
+--- !u!114 &167225455
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1788976992}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0dbf27d230a46b643baa2473b0e1521f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  partName: Right Brachiocephalic Vein
+--- !u!64 &167225456
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1788976992}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -1473158166687498, guid: 0de72b2d3b4a19642bb1cccb02572084, type: 3}
+--- !u!114 &175231159
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1788976949}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0dbf27d230a46b643baa2473b0e1521f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  partName: Anterior Cardiac Vein
+--- !u!64 &175231160
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1788976949}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 71681208111565566, guid: 0de72b2d3b4a19642bb1cccb02572084, type: 3}
+--- !u!114 &207239285
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1788976978}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0dbf27d230a46b643baa2473b0e1521f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  partName: Left Coronary Artery
+--- !u!64 &207239286
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1788976978}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 2000419052272314806, guid: 0de72b2d3b4a19642bb1cccb02572084, type: 3}
+--- !u!114 &245477132
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1788976942}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b424f62e63c43354b935735dbfa37961, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  displayPosition: {fileID: 1760800032}
+  enlargedScale: {x: 0.1, y: 0.1, z: 0.1}
+  animationDuration: 1
+--- !u!114 &301732357
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1788976977}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0dbf27d230a46b643baa2473b0e1521f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  partName: Circumflex Artery
+--- !u!64 &301732358
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1788976977}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -8309658860774317424, guid: 0de72b2d3b4a19642bb1cccb02572084, type: 3}
+--- !u!114 &352636384
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1788976990}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0dbf27d230a46b643baa2473b0e1521f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  partName: Pulmonary Trunk
+--- !u!64 &352636385
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1788976990}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 2316573620701607613, guid: 0de72b2d3b4a19642bb1cccb02572084, type: 3}
+--- !u!114 &367254078
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1788976961}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0dbf27d230a46b643baa2473b0e1521f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  partName: Posterior Interventricular Artery
+--- !u!64 &367254079
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1788976961}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 7950966138194508851, guid: 0de72b2d3b4a19642bb1cccb02572084, type: 3}
+--- !u!114 &373566872
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1788976972}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0dbf27d230a46b643baa2473b0e1521f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  partName: Left Coronary Artery
+--- !u!64 &373566873
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1788976972}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 1600291077285356672, guid: 0de72b2d3b4a19642bb1cccb02572084, type: 3}
+--- !u!1 &410087039
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 410087041}
+  - component: {fileID: 410087040}
+  - component: {fileID: 410087042}
+  m_Layer: 0
+  m_Name: Directional Light
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!108 &410087040
+Light:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 410087039}
+  m_Enabled: 1
+  serializedVersion: 10
+  m_Type: 1
+  m_Shape: 0
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Intensity: 2
+  m_Range: 10
+  m_SpotAngle: 30
+  m_InnerSpotAngle: 21.80208
+  m_CookieSize: 10
+  m_Shadows:
+    m_Type: 2
+    m_Resolution: -1
+    m_CustomResolution: -1
+    m_Strength: 1
+    m_Bias: 0.05
+    m_NormalBias: 0.4
+    m_NearPlane: 0.2
+    m_CullingMatrixOverride:
+      e00: 1
+      e01: 0
+      e02: 0
+      e03: 0
+      e10: 0
+      e11: 1
+      e12: 0
+      e13: 0
+      e20: 0
+      e21: 0
+      e22: 1
+      e23: 0
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+    m_UseCullingMatrixOverride: 0
+  m_Cookie: {fileID: 0}
+  m_DrawHalo: 0
+  m_Flare: {fileID: 0}
+  m_RenderMode: 0
+  m_CullingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_RenderingLayerMask: 1
+  m_Lightmapping: 4
+  m_LightShadowCasterMode: 0
+  m_AreaSize: {x: 1, y: 1}
+  m_BounceIntensity: 1
+  m_ColorTemperature: 5000
+  m_UseColorTemperature: 1
+  m_BoundingSphereOverride: {x: 0, y: 0, z: 0, w: 0}
+  m_UseBoundingSphereOverride: 0
+  m_UseViewFrustumForShadowCasterCull: 1
+  m_ShadowRadius: 0
+  m_ShadowAngle: 0
+--- !u!4 &410087041
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 410087039}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0.40821788, y: -0.23456968, z: 0.10938163, w: 0.8754261}
+  m_LocalPosition: {x: 0, y: 3, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 50, y: -30, z: 0}
+--- !u!114 &410087042
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 410087039}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 474bcb49853aa07438625e644c072ee6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Version: 3
+  m_UsePipelineSettings: 1
+  m_AdditionalLightsShadowResolutionTier: 2
+  m_LightLayerMask: 1
+  m_RenderingLayers: 1
+  m_CustomShadowLayers: 0
+  m_ShadowLayerMask: 1
+  m_ShadowRenderingLayers: 1
+  m_LightCookieSize: {x: 1, y: 1}
+  m_LightCookieOffset: {x: 0, y: 0}
+  m_SoftShadowQuality: 1
+--- !u!1 &416177515 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2001090777503802966, guid: 99fa73c59aa5b8b4886d14d571781ecb,
+    type: 3}
+  m_PrefabInstance: {fileID: 421466018390708464}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &416177517
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 416177515}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e988983f96fe1dd48800bcdfc82f23e9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_LineWidth: 0.005
+  m_OverrideInteractorLineLength: 1
+  m_LineLength: 10
+  m_AutoAdjustLineLength: 0
+  m_MinLineLength: 0.5
+  m_UseDistanceToHitAsMaxLineLength: 1
+  m_LineRetractionDelay: 0.5
+  m_LineLengthChangeSpeed: 12
+  m_WidthCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    - serializedVersion: 3
+      time: 1
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  m_SetLineColorGradient: 1
+  m_ValidColorGradient:
+    serializedVersion: 2
+    key0: {r: 1, g: 1, b: 1, a: 1}
+    key1: {r: 1, g: 1, b: 1, a: 1}
+    key2: {r: 0, g: 0, b: 0, a: 0}
+    key3: {r: 0, g: 0, b: 0, a: 0}
+    key4: {r: 0, g: 0, b: 0, a: 0}
+    key5: {r: 0, g: 0, b: 0, a: 0}
+    key6: {r: 0, g: 0, b: 0, a: 0}
+    key7: {r: 0, g: 0, b: 0, a: 0}
+    ctime0: 0
+    ctime1: 65535
+    ctime2: 0
+    ctime3: 0
+    ctime4: 0
+    ctime5: 0
+    ctime6: 0
+    ctime7: 0
+    atime0: 0
+    atime1: 65535
+    atime2: 0
+    atime3: 0
+    atime4: 0
+    atime5: 0
+    atime6: 0
+    atime7: 0
+    m_Mode: 0
+    m_ColorSpace: -1
+    m_NumColorKeys: 2
+    m_NumAlphaKeys: 2
+  m_InvalidColorGradient:
+    serializedVersion: 2
+    key0: {r: 1, g: 0, b: 0, a: 1}
+    key1: {r: 1, g: 0, b: 0, a: 1}
+    key2: {r: 0, g: 0, b: 0, a: 0}
+    key3: {r: 0, g: 0, b: 0, a: 0}
+    key4: {r: 0, g: 0, b: 0, a: 0}
+    key5: {r: 0, g: 0, b: 0, a: 0}
+    key6: {r: 0, g: 0, b: 0, a: 0}
+    key7: {r: 0, g: 0, b: 0, a: 0}
+    ctime0: 0
+    ctime1: 65535
+    ctime2: 0
+    ctime3: 0
+    ctime4: 0
+    ctime5: 0
+    ctime6: 0
+    ctime7: 0
+    atime0: 0
+    atime1: 65535
+    atime2: 0
+    atime3: 0
+    atime4: 0
+    atime5: 0
+    atime6: 0
+    atime7: 0
+    m_Mode: 0
+    m_ColorSpace: -1
+    m_NumColorKeys: 2
+    m_NumAlphaKeys: 2
+  m_BlockedColorGradient:
+    serializedVersion: 2
+    key0: {r: 1, g: 0.92156863, b: 0.015686275, a: 1}
+    key1: {r: 1, g: 0.92156863, b: 0.015686275, a: 1}
+    key2: {r: 0, g: 0, b: 0, a: 0}
+    key3: {r: 0, g: 0, b: 0, a: 0}
+    key4: {r: 0, g: 0, b: 0, a: 0}
+    key5: {r: 0, g: 0, b: 0, a: 0}
+    key6: {r: 0, g: 0, b: 0, a: 0}
+    key7: {r: 0, g: 0, b: 0, a: 0}
+    ctime0: 0
+    ctime1: 65535
+    ctime2: 0
+    ctime3: 0
+    ctime4: 0
+    ctime5: 0
+    ctime6: 0
+    ctime7: 0
+    atime0: 0
+    atime1: 65535
+    atime2: 0
+    atime3: 0
+    atime4: 0
+    atime5: 0
+    atime6: 0
+    atime7: 0
+    m_Mode: 0
+    m_ColorSpace: -1
+    m_NumColorKeys: 2
+    m_NumAlphaKeys: 2
+  m_TreatSelectionAsValidState: 0
+  m_SmoothMovement: 0
+  m_FollowTightness: 10
+  m_SnapThresholdDistance: 10
+  m_Reticle: {fileID: 0}
+  m_BlockedReticle: {fileID: 0}
+  m_StopLineAtFirstRaycastHit: 1
+  m_StopLineAtSelection: 0
+  m_SnapEndpointIfAvailable: 1
+  m_LineBendRatio: 0.5
+  m_BendingEnabledInteractionLayers:
+    m_Bits: 4294967295
+  m_OverrideInteractorLineOrigin: 1
+  m_LineOriginTransform: {fileID: 0}
+  m_LineOriginOffset: 0
+--- !u!120 &416177518
+LineRenderer:
+  serializedVersion: 2
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 416177515}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 0
+  m_LightProbeUsage: 0
+  m_ReflectionProbeUsage: 0
+  m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: d9181794feaca644ebc4f8dab3c8f434, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_Positions:
+  - {x: 0, y: 0, z: 0}
+  - {x: 0, y: 0, z: 1}
+  m_Parameters:
+    serializedVersion: 3
+    widthMultiplier: 1
+    widthCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    colorGradient:
+      serializedVersion: 2
+      key0: {r: 1, g: 1, b: 1, a: 1}
+      key1: {r: 1, g: 1, b: 1, a: 1}
+      key2: {r: 0, g: 0, b: 0, a: 0}
+      key3: {r: 0, g: 0, b: 0, a: 0}
+      key4: {r: 0, g: 0, b: 0, a: 0}
+      key5: {r: 0, g: 0, b: 0, a: 0}
+      key6: {r: 0, g: 0, b: 0, a: 0}
+      key7: {r: 0, g: 0, b: 0, a: 0}
+      ctime0: 0
+      ctime1: 65535
+      ctime2: 0
+      ctime3: 0
+      ctime4: 0
+      ctime5: 0
+      ctime6: 0
+      ctime7: 0
+      atime0: 0
+      atime1: 65535
+      atime2: 0
+      atime3: 0
+      atime4: 0
+      atime5: 0
+      atime6: 0
+      atime7: 0
+      m_Mode: 0
+      m_ColorSpace: -1
+      m_NumColorKeys: 2
+      m_NumAlphaKeys: 2
+    numCornerVertices: 0
+    numCapVertices: 0
+    alignment: 0
+    textureMode: 0
+    textureScale: {x: 1, y: 1}
+    shadowBias: 0.5
+    generateLightingData: 0
+  m_MaskInteraction: 0
+  m_UseWorldSpace: 1
+  m_Loop: 0
+  m_ApplyActiveColorSpace: 1
+--- !u!114 &416177519
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 416177515}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6803edce0201f574f923fd9d10e5b30a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_InteractionManager: {fileID: 0}
+  m_InteractionLayerMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_InteractionLayers:
+    m_Bits: 4294967295
+  m_AttachTransform: {fileID: 0}
+  m_KeepSelectedTargetValid: 1
+  m_DisableVisualsWhenBlockedInGroup: 1
+  m_StartingSelectedInteractable: {fileID: 0}
+  m_StartingTargetFilter: {fileID: 0}
+  m_HoverEntered:
+    m_PersistentCalls:
+      m_Calls: []
+  m_HoverExited:
+    m_PersistentCalls:
+      m_Calls: []
+  m_SelectEntered:
+    m_PersistentCalls:
+      m_Calls: []
+  m_SelectExited:
+    m_PersistentCalls:
+      m_Calls: []
+  m_StartingHoverFilters: []
+  m_StartingSelectFilters: []
+  m_OnHoverEntered:
+    m_PersistentCalls:
+      m_Calls: []
+  m_OnHoverExited:
+    m_PersistentCalls:
+      m_Calls: []
+  m_OnSelectEntered:
+    m_PersistentCalls:
+      m_Calls: []
+  m_OnSelectExited:
+    m_PersistentCalls:
+      m_Calls: []
+  m_SelectActionTrigger: 1
+  m_HideControllerOnSelect: 0
+  m_AllowHoveredActivate: 0
+  m_TargetPriorityMode: 0
+  m_PlayAudioClipOnSelectEntered: 0
+  m_AudioClipForOnSelectEntered: {fileID: 0}
+  m_PlayAudioClipOnSelectExited: 0
+  m_AudioClipForOnSelectExited: {fileID: 0}
+  m_PlayAudioClipOnSelectCanceled: 0
+  m_AudioClipForOnSelectCanceled: {fileID: 0}
+  m_PlayAudioClipOnHoverEntered: 0
+  m_AudioClipForOnHoverEntered: {fileID: 0}
+  m_PlayAudioClipOnHoverExited: 0
+  m_AudioClipForOnHoverExited: {fileID: 0}
+  m_PlayAudioClipOnHoverCanceled: 0
+  m_AudioClipForOnHoverCanceled: {fileID: 0}
+  m_AllowHoverAudioWhileSelecting: 1
+  m_PlayHapticsOnSelectEntered: 0
+  m_HapticSelectEnterIntensity: 0
+  m_HapticSelectEnterDuration: 0
+  m_PlayHapticsOnSelectExited: 0
+  m_HapticSelectExitIntensity: 0
+  m_HapticSelectExitDuration: 0
+  m_PlayHapticsOnSelectCanceled: 0
+  m_HapticSelectCancelIntensity: 0
+  m_HapticSelectCancelDuration: 0
+  m_PlayHapticsOnHoverEntered: 0
+  m_HapticHoverEnterIntensity: 0
+  m_HapticHoverEnterDuration: 0
+  m_PlayHapticsOnHoverExited: 0
+  m_HapticHoverExitIntensity: 0
+  m_HapticHoverExitDuration: 0
+  m_PlayHapticsOnHoverCanceled: 0
+  m_HapticHoverCancelIntensity: 0
+  m_HapticHoverCancelDuration: 0
+  m_AllowHoverHapticsWhileSelecting: 1
+  m_LineType: 0
+  m_BlendVisualLinePoints: 1
+  m_MaxRaycastDistance: 30
+  m_RayOriginTransform: {fileID: 0}
+  m_ReferenceFrame: {fileID: 0}
+  m_Velocity: 16
+  m_Acceleration: 9.8
+  m_AdditionalGroundHeight: 0.1
+  m_AdditionalFlightTime: 0.5
+  m_EndPointDistance: 30
+  m_EndPointHeight: -10
+  m_ControlPointDistance: 10
+  m_ControlPointHeight: 5
+  m_SampleFrequency: 20
+  m_HitDetectionType: 0
+  m_SphereCastRadius: 0.1
+  m_ConeCastAngle: 6
+  m_LiveConeCastDebugVisuals: 0
+  m_RaycastMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_RaycastTriggerInteraction: 1
+  m_RaycastSnapVolumeInteraction: 1
+  m_HitClosestOnly: 0
+  m_HoverToSelect: 0
+  m_HoverTimeToSelect: 0.5
+  m_AutoDeselect: 0
+  m_TimeToAutoDeselect: 3
+  m_EnableUIInteraction: 1
+  m_BlockUIOnInteractableSelection: 1
+  m_AllowAnchorControl: 1
+  m_UseForceGrab: 1
+  m_RotateSpeed: 180
+  m_TranslateSpeed: 1
+  m_AnchorRotateReferenceFrame: {fileID: 0}
+  m_AnchorRotationMode: 0
+  m_UIHoverEntered:
+    m_PersistentCalls:
+      m_Calls: []
+  m_UIHoverExited:
+    m_PersistentCalls:
+      m_Calls: []
+  m_EnableARRaycasting: 0
+  m_OccludeARHitsWith3DObjects: 0
+  m_OccludeARHitsWith2DObjects: 0
+  m_ScaleMode: 0
+--- !u!114 &416177521
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 416177515}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1c70e78705367094aac978be6d4047f6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  rayInteractor: {fileID: 416177519}
+  heartManager: {fileID: 245477132}
+  heartUI: {fileID: 1492047534}
+--- !u!114 &473041483
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1788976948}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0dbf27d230a46b643baa2473b0e1521f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  partName: Great Cardiac Vein
+--- !u!64 &473041484
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1788976948}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 9209434286049825887, guid: 0de72b2d3b4a19642bb1cccb02572084, type: 3}
+--- !u!114 &493770418
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1788976947}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0dbf27d230a46b643baa2473b0e1521f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  partName: Circumflex Branch of Left Coronary Artery
+--- !u!64 &493770419
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1788976947}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -1597734477958471297, guid: 0de72b2d3b4a19642bb1cccb02572084, type: 3}
+--- !u!114 &540652068
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1788976957}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0dbf27d230a46b643baa2473b0e1521f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  partName: Posterior Interventricular Artery
+--- !u!64 &540652069
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1788976957}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 6919576727593579362, guid: 0de72b2d3b4a19642bb1cccb02572084, type: 3}
+--- !u!114 &541364155
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1788976955}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0dbf27d230a46b643baa2473b0e1521f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  partName: Posterior Interventricular Artery
+--- !u!64 &541364156
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1788976955}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -4018059382081353825, guid: 0de72b2d3b4a19642bb1cccb02572084, type: 3}
+--- !u!54 &602559680
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1788976942}
+  serializedVersion: 4
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_CenterOfMass: {x: 0, y: 0, z: 0}
+  m_InertiaTensor: {x: 1, y: 1, z: 1}
+  m_InertiaRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ImplicitCom: 1
+  m_ImplicitTensor: 1
+  m_UseGravity: 1
+  m_IsKinematic: 1
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
+--- !u!64 &602559681
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1788976942}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 0}
+--- !u!114 &635580966
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1788976979}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0dbf27d230a46b643baa2473b0e1521f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  partName: Left Brachiocephalic Vein
+--- !u!64 &635580967
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1788976979}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -5689687979946329708, guid: 0de72b2d3b4a19642bb1cccb02572084, type: 3}
+--- !u!114 &649507001
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1788976973}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0dbf27d230a46b643baa2473b0e1521f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  partName: Anterior Intervantricular Artery
+--- !u!64 &649507002
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1788976973}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 5679288268866297149, guid: 0de72b2d3b4a19642bb1cccb02572084, type: 3}
+--- !u!114 &736319325
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1788976956}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0dbf27d230a46b643baa2473b0e1521f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  partName: Posterior Interventricular Artery
+--- !u!64 &736319326
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1788976956}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 6015845692154452439, guid: 0de72b2d3b4a19642bb1cccb02572084, type: 3}
+--- !u!114 &740564836
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1788976967}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0dbf27d230a46b643baa2473b0e1521f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  partName: Right Coronary Artery
+--- !u!64 &740564837
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1788976967}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 6439305921463182403, guid: 0de72b2d3b4a19642bb1cccb02572084, type: 3}
+--- !u!1 &815669144
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 815669148}
+  - component: {fileID: 815669147}
+  - component: {fileID: 815669146}
+  - component: {fileID: 815669145}
+  m_Layer: 0
+  m_Name: Plane
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!64 &815669145
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 815669144}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!23 &815669146
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 815669144}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: 31321ba15b8f8eb4c954353edc038b1d, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!33 &815669147
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 815669144}
+  m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!4 &815669148
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 815669144}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 1.98, y: 0.042, z: 3.84}
+  m_LocalScale: {x: 2.9516, y: 2.9516, z: 2.9516}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &873417129
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1788976981}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0dbf27d230a46b643baa2473b0e1521f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  partName: Aortic Arch
+--- !u!64 &873417130
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1788976981}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 5825483194994857643, guid: 0de72b2d3b4a19642bb1cccb02572084, type: 3}
+--- !u!114 &891218458
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1788976964}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0dbf27d230a46b643baa2473b0e1521f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  partName: Marginal Artery
+--- !u!64 &891218459
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1788976964}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -4911836655195356238, guid: 0de72b2d3b4a19642bb1cccb02572084, type: 3}
+--- !u!114 &902007362
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1788976975}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0dbf27d230a46b643baa2473b0e1521f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  partName: Left Coronary Artery
+--- !u!64 &902007363
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1788976975}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 7521761101788043630, guid: 0de72b2d3b4a19642bb1cccb02572084, type: 3}
+--- !u!114 &908424156
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1788976974}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0dbf27d230a46b643baa2473b0e1521f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  partName: Left Coronary Artery
+--- !u!64 &908424157
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1788976974}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -6191351105688545375, guid: 0de72b2d3b4a19642bb1cccb02572084, type: 3}
+--- !u!114 &929365239
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1788976970}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0dbf27d230a46b643baa2473b0e1521f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  partName: Right Coronary Artery
+--- !u!64 &929365240
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1788976970}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -4539647261663568140, guid: 0de72b2d3b4a19642bb1cccb02572084, type: 3}
+--- !u!1001 &957508851
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: 8ded42e2f0e0ce1459e64d928884676e,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1.4667
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 8ded42e2f0e0ce1459e64d928884676e,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1.4667
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 8ded42e2f0e0ce1459e64d928884676e,
+        type: 3}
+      propertyPath: m_LocalScale.z
+      value: 1.4667
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 8ded42e2f0e0ce1459e64d928884676e,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 2.69
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 8ded42e2f0e0ce1459e64d928884676e,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.05
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 8ded42e2f0e0ce1459e64d928884676e,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 5.11
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 8ded42e2f0e0ce1459e64d928884676e,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 8ded42e2f0e0ce1459e64d928884676e,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 8ded42e2f0e0ce1459e64d928884676e,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 8ded42e2f0e0ce1459e64d928884676e,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 8ded42e2f0e0ce1459e64d928884676e,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 8ded42e2f0e0ce1459e64d928884676e,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 180
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 8ded42e2f0e0ce1459e64d928884676e,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8101089703881832601, guid: 8ded42e2f0e0ce1459e64d928884676e,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 4920981ab6cd7b84f899e1c743aa147b, type: 2}
+    - target: {fileID: -7412323322209893165, guid: 8ded42e2f0e0ce1459e64d928884676e,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 4920981ab6cd7b84f899e1c743aa147b, type: 2}
+    - target: {fileID: -6954587505006369863, guid: 8ded42e2f0e0ce1459e64d928884676e,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 4920981ab6cd7b84f899e1c743aa147b, type: 2}
+    - target: {fileID: -5840641739579122677, guid: 8ded42e2f0e0ce1459e64d928884676e,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 4920981ab6cd7b84f899e1c743aa147b, type: 2}
+    - target: {fileID: -2299943534949416773, guid: 8ded42e2f0e0ce1459e64d928884676e,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 4920981ab6cd7b84f899e1c743aa147b, type: 2}
+    - target: {fileID: -2204687656105011131, guid: 8ded42e2f0e0ce1459e64d928884676e,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 4920981ab6cd7b84f899e1c743aa147b, type: 2}
+    - target: {fileID: -1027122977281716826, guid: 8ded42e2f0e0ce1459e64d928884676e,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 4920981ab6cd7b84f899e1c743aa147b, type: 2}
+    - target: {fileID: -981842047603072024, guid: 8ded42e2f0e0ce1459e64d928884676e,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 4920981ab6cd7b84f899e1c743aa147b, type: 2}
+    - target: {fileID: -550188691962224429, guid: 8ded42e2f0e0ce1459e64d928884676e,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 4920981ab6cd7b84f899e1c743aa147b, type: 2}
+    - target: {fileID: 440041494533348282, guid: 8ded42e2f0e0ce1459e64d928884676e,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 4920981ab6cd7b84f899e1c743aa147b, type: 2}
+    - target: {fileID: 447553493821089612, guid: 8ded42e2f0e0ce1459e64d928884676e,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 4920981ab6cd7b84f899e1c743aa147b, type: 2}
+    - target: {fileID: 919132149155446097, guid: 8ded42e2f0e0ce1459e64d928884676e,
+        type: 3}
+      propertyPath: m_Name
+      value: Free Pack - Human Skeleton
+      objectReference: {fileID: 0}
+    - target: {fileID: 1035945797421850287, guid: 8ded42e2f0e0ce1459e64d928884676e,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 4920981ab6cd7b84f899e1c743aa147b, type: 2}
+    - target: {fileID: 1619925782455977773, guid: 8ded42e2f0e0ce1459e64d928884676e,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 4920981ab6cd7b84f899e1c743aa147b, type: 2}
+    - target: {fileID: 4235709997933687947, guid: 8ded42e2f0e0ce1459e64d928884676e,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 4920981ab6cd7b84f899e1c743aa147b, type: 2}
+    - target: {fileID: 5203664155753350151, guid: 8ded42e2f0e0ce1459e64d928884676e,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 4920981ab6cd7b84f899e1c743aa147b, type: 2}
+    - target: {fileID: 5635395249456058213, guid: 8ded42e2f0e0ce1459e64d928884676e,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 4920981ab6cd7b84f899e1c743aa147b, type: 2}
+    - target: {fileID: 7110177683506814048, guid: 8ded42e2f0e0ce1459e64d928884676e,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 4920981ab6cd7b84f899e1c743aa147b, type: 2}
+    - target: {fileID: 7374668526243496814, guid: 8ded42e2f0e0ce1459e64d928884676e,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 4920981ab6cd7b84f899e1c743aa147b, type: 2}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 8ded42e2f0e0ce1459e64d928884676e, type: 3}
+--- !u!1 &1037811355
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1037811356}
+  - component: {fileID: 1037811358}
+  - component: {fileID: 1037811357}
+  m_Layer: 5
+  m_Name: Text (TMP)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1037811356
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1037811355}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 3.6645257, y: 3.08, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1492047530}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 10, y: 138}
+  m_SizeDelta: {x: 200, y: 50}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1037811357
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1037811355}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_text: 
+  m_isRightToLeft: 0
+  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_sharedMaterial: {fileID: 2100000, guid: e73a58f6e2794ae7b1b7e50b7fb811b0, type: 2}
+  m_fontSharedMaterials: []
+  m_fontMaterial: {fileID: 0}
+  m_fontMaterials: []
+  m_fontColor32:
+    serializedVersion: 2
+    rgba: 4278255873
+  m_fontColor: {r: 0.0037735105, g: 0.0037735105, b: 0.0037735105, a: 1}
+  m_enableVertexGradient: 0
+  m_colorMode: 3
+  m_fontColorGradient:
+    topLeft: {r: 1, g: 1, b: 1, a: 1}
+    topRight: {r: 1, g: 1, b: 1, a: 1}
+    bottomLeft: {r: 1, g: 1, b: 1, a: 1}
+    bottomRight: {r: 1, g: 1, b: 1, a: 1}
+  m_fontColorGradientPreset: {fileID: 0}
+  m_spriteAsset: {fileID: 0}
+  m_tintAllSprites: 0
+  m_StyleSheet: {fileID: 0}
+  m_TextStyleHashCode: -1183493901
+  m_overrideHtmlColors: 0
+  m_faceColor:
+    serializedVersion: 2
+    rgba: 4294967295
+  m_fontSize: 36
+  m_fontSizeBase: 36
+  m_fontWeight: 400
+  m_enableAutoSizing: 0
+  m_fontSizeMin: 18
+  m_fontSizeMax: 72
+  m_fontStyle: 0
+  m_HorizontalAlignment: 1
+  m_VerticalAlignment: 256
+  m_textAlignment: 65535
+  m_characterSpacing: 0
+  m_wordSpacing: 0
+  m_lineSpacing: 0
+  m_lineSpacingMax: 0
+  m_paragraphSpacing: 0
+  m_charWidthMaxAdj: 0
+  m_enableWordWrapping: 1
+  m_wordWrappingRatios: 0.4
+  m_overflowMode: 0
+  m_linkedTextComponent: {fileID: 0}
+  parentLinkedComponent: {fileID: 0}
+  m_enableKerning: 1
+  m_enableExtraPadding: 0
+  checkPaddingRequired: 0
+  m_isRichText: 1
+  m_parseCtrlCharacters: 1
+  m_isOrthographic: 1
+  m_isCullingEnabled: 0
+  m_horizontalMapping: 0
+  m_verticalMapping: 0
+  m_uvLineOffset: 0
+  m_geometrySortingOrder: 0
+  m_IsTextObjectScaleStatic: 0
+  m_VertexBufferAutoSizeReduction: 0
+  m_useMaxVisibleDescender: 1
+  m_pageToDisplay: 1
+  m_margin: {x: -150.09549, y: 0, z: -380.5092, w: -39.208336}
+  m_isUsingLegacyAnimationComponent: 0
+  m_isVolumetricText: 0
+  m_hasFontAssetChanged: 0
+  m_baseMaterial: {fileID: 0}
+  m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
+--- !u!222 &1037811358
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1037811355}
+  m_CullTransparentMesh: 1
+--- !u!114 &1140739160
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1788976962}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0dbf27d230a46b643baa2473b0e1521f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  partName: Right Coronary Artery
+--- !u!64 &1140739161
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1788976962}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -7791854697772645746, guid: 0de72b2d3b4a19642bb1cccb02572084, type: 3}
+--- !u!114 &1167202084
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1788976980}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0dbf27d230a46b643baa2473b0e1521f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  partName: Inferior Vena Cava
+--- !u!64 &1167202085
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1788976980}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -8314923619618777821, guid: 0de72b2d3b4a19642bb1cccb02572084, type: 3}
+--- !u!114 &1175811648
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1788976954}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0dbf27d230a46b643baa2473b0e1521f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  partName: Posterior Interventricular Artery
+--- !u!64 &1175811649
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1788976954}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -1036423909094554109, guid: 0de72b2d3b4a19642bb1cccb02572084, type: 3}
+--- !u!114 &1176946337
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1788976994}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0dbf27d230a46b643baa2473b0e1521f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  partName: Left Pulmonary Artey
+--- !u!64 &1176946338
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1788976994}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 4742712138920632611, guid: 0de72b2d3b4a19642bb1cccb02572084, type: 3}
+--- !u!114 &1182691268
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1788976985}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0dbf27d230a46b643baa2473b0e1521f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  partName: Right Pulmonary Veins
+--- !u!64 &1182691269
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1788976985}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 99083225404306157, guid: 0de72b2d3b4a19642bb1cccb02572084, type: 3}
+--- !u!114 &1229852759
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1788976959}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0dbf27d230a46b643baa2473b0e1521f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  partName: Right Coronary Artery
+--- !u!64 &1229852760
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1788976959}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -7142979928484878271, guid: 0de72b2d3b4a19642bb1cccb02572084, type: 3}
+--- !u!114 &1238817444
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1788976987}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0dbf27d230a46b643baa2473b0e1521f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  partName: Right Pulmonary Vein
+--- !u!64 &1238817445
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1788976987}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -136381570081416733, guid: 0de72b2d3b4a19642bb1cccb02572084, type: 3}
+--- !u!114 &1299408661
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1788976958}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0dbf27d230a46b643baa2473b0e1521f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  partName: Marginal Artery
+--- !u!64 &1299408662
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1788976958}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -6663532849661115187, guid: 0de72b2d3b4a19642bb1cccb02572084, type: 3}
+--- !u!1 &1310006021 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4124171330933949293, guid: 99fa73c59aa5b8b4886d14d571781ecb,
+    type: 3}
+  m_PrefabInstance: {fileID: 421466018390708464}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1310006024
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1310006021}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e988983f96fe1dd48800bcdfc82f23e9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_LineWidth: 0.005
+  m_OverrideInteractorLineLength: 1
+  m_LineLength: 10
+  m_AutoAdjustLineLength: 0
+  m_MinLineLength: 0.5
+  m_UseDistanceToHitAsMaxLineLength: 1
+  m_LineRetractionDelay: 0.5
+  m_LineLengthChangeSpeed: 12
+  m_WidthCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    - serializedVersion: 3
+      time: 1
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  m_SetLineColorGradient: 1
+  m_ValidColorGradient:
+    serializedVersion: 2
+    key0: {r: 1, g: 1, b: 1, a: 1}
+    key1: {r: 1, g: 1, b: 1, a: 1}
+    key2: {r: 0, g: 0, b: 0, a: 0}
+    key3: {r: 0, g: 0, b: 0, a: 0}
+    key4: {r: 0, g: 0, b: 0, a: 0}
+    key5: {r: 0, g: 0, b: 0, a: 0}
+    key6: {r: 0, g: 0, b: 0, a: 0}
+    key7: {r: 0, g: 0, b: 0, a: 0}
+    ctime0: 0
+    ctime1: 65535
+    ctime2: 0
+    ctime3: 0
+    ctime4: 0
+    ctime5: 0
+    ctime6: 0
+    ctime7: 0
+    atime0: 0
+    atime1: 65535
+    atime2: 0
+    atime3: 0
+    atime4: 0
+    atime5: 0
+    atime6: 0
+    atime7: 0
+    m_Mode: 0
+    m_ColorSpace: -1
+    m_NumColorKeys: 2
+    m_NumAlphaKeys: 2
+  m_InvalidColorGradient:
+    serializedVersion: 2
+    key0: {r: 1, g: 0, b: 0, a: 1}
+    key1: {r: 1, g: 0, b: 0, a: 1}
+    key2: {r: 0, g: 0, b: 0, a: 0}
+    key3: {r: 0, g: 0, b: 0, a: 0}
+    key4: {r: 0, g: 0, b: 0, a: 0}
+    key5: {r: 0, g: 0, b: 0, a: 0}
+    key6: {r: 0, g: 0, b: 0, a: 0}
+    key7: {r: 0, g: 0, b: 0, a: 0}
+    ctime0: 0
+    ctime1: 65535
+    ctime2: 0
+    ctime3: 0
+    ctime4: 0
+    ctime5: 0
+    ctime6: 0
+    ctime7: 0
+    atime0: 0
+    atime1: 65535
+    atime2: 0
+    atime3: 0
+    atime4: 0
+    atime5: 0
+    atime6: 0
+    atime7: 0
+    m_Mode: 0
+    m_ColorSpace: -1
+    m_NumColorKeys: 2
+    m_NumAlphaKeys: 2
+  m_BlockedColorGradient:
+    serializedVersion: 2
+    key0: {r: 1, g: 0.92156863, b: 0.015686275, a: 1}
+    key1: {r: 1, g: 0.92156863, b: 0.015686275, a: 1}
+    key2: {r: 0, g: 0, b: 0, a: 0}
+    key3: {r: 0, g: 0, b: 0, a: 0}
+    key4: {r: 0, g: 0, b: 0, a: 0}
+    key5: {r: 0, g: 0, b: 0, a: 0}
+    key6: {r: 0, g: 0, b: 0, a: 0}
+    key7: {r: 0, g: 0, b: 0, a: 0}
+    ctime0: 0
+    ctime1: 65535
+    ctime2: 0
+    ctime3: 0
+    ctime4: 0
+    ctime5: 0
+    ctime6: 0
+    ctime7: 0
+    atime0: 0
+    atime1: 65535
+    atime2: 0
+    atime3: 0
+    atime4: 0
+    atime5: 0
+    atime6: 0
+    atime7: 0
+    m_Mode: 0
+    m_ColorSpace: -1
+    m_NumColorKeys: 2
+    m_NumAlphaKeys: 2
+  m_TreatSelectionAsValidState: 0
+  m_SmoothMovement: 0
+  m_FollowTightness: 10
+  m_SnapThresholdDistance: 10
+  m_Reticle: {fileID: 0}
+  m_BlockedReticle: {fileID: 0}
+  m_StopLineAtFirstRaycastHit: 1
+  m_StopLineAtSelection: 0
+  m_SnapEndpointIfAvailable: 1
+  m_LineBendRatio: 0.5
+  m_BendingEnabledInteractionLayers:
+    m_Bits: 4294967295
+  m_OverrideInteractorLineOrigin: 1
+  m_LineOriginTransform: {fileID: 0}
+  m_LineOriginOffset: 0
+--- !u!120 &1310006025
+LineRenderer:
+  serializedVersion: 2
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1310006021}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 0
+  m_LightProbeUsage: 0
+  m_ReflectionProbeUsage: 0
+  m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: d9181794feaca644ebc4f8dab3c8f434, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_Positions:
+  - {x: 0, y: 0, z: 0}
+  - {x: 0, y: 0, z: 1}
+  m_Parameters:
+    serializedVersion: 3
+    widthMultiplier: 1
+    widthCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    colorGradient:
+      serializedVersion: 2
+      key0: {r: 1, g: 1, b: 1, a: 1}
+      key1: {r: 1, g: 1, b: 1, a: 1}
+      key2: {r: 0, g: 0, b: 0, a: 0}
+      key3: {r: 0, g: 0, b: 0, a: 0}
+      key4: {r: 0, g: 0, b: 0, a: 0}
+      key5: {r: 0, g: 0, b: 0, a: 0}
+      key6: {r: 0, g: 0, b: 0, a: 0}
+      key7: {r: 0, g: 0, b: 0, a: 0}
+      ctime0: 0
+      ctime1: 65535
+      ctime2: 0
+      ctime3: 0
+      ctime4: 0
+      ctime5: 0
+      ctime6: 0
+      ctime7: 0
+      atime0: 0
+      atime1: 65535
+      atime2: 0
+      atime3: 0
+      atime4: 0
+      atime5: 0
+      atime6: 0
+      atime7: 0
+      m_Mode: 0
+      m_ColorSpace: -1
+      m_NumColorKeys: 2
+      m_NumAlphaKeys: 2
+    numCornerVertices: 0
+    numCapVertices: 0
+    alignment: 0
+    textureMode: 0
+    textureScale: {x: 1, y: 1}
+    shadowBias: 0.5
+    generateLightingData: 0
+  m_MaskInteraction: 0
+  m_UseWorldSpace: 1
+  m_Loop: 0
+  m_ApplyActiveColorSpace: 1
+--- !u!114 &1310006026
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1310006021}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6803edce0201f574f923fd9d10e5b30a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_InteractionManager: {fileID: 0}
+  m_InteractionLayerMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_InteractionLayers:
+    m_Bits: 4294967295
+  m_AttachTransform: {fileID: 0}
+  m_KeepSelectedTargetValid: 1
+  m_DisableVisualsWhenBlockedInGroup: 1
+  m_StartingSelectedInteractable: {fileID: 0}
+  m_StartingTargetFilter: {fileID: 0}
+  m_HoverEntered:
+    m_PersistentCalls:
+      m_Calls: []
+  m_HoverExited:
+    m_PersistentCalls:
+      m_Calls: []
+  m_SelectEntered:
+    m_PersistentCalls:
+      m_Calls: []
+  m_SelectExited:
+    m_PersistentCalls:
+      m_Calls: []
+  m_StartingHoverFilters: []
+  m_StartingSelectFilters: []
+  m_OnHoverEntered:
+    m_PersistentCalls:
+      m_Calls: []
+  m_OnHoverExited:
+    m_PersistentCalls:
+      m_Calls: []
+  m_OnSelectEntered:
+    m_PersistentCalls:
+      m_Calls: []
+  m_OnSelectExited:
+    m_PersistentCalls:
+      m_Calls: []
+  m_SelectActionTrigger: 1
+  m_HideControllerOnSelect: 0
+  m_AllowHoveredActivate: 0
+  m_TargetPriorityMode: 0
+  m_PlayAudioClipOnSelectEntered: 0
+  m_AudioClipForOnSelectEntered: {fileID: 0}
+  m_PlayAudioClipOnSelectExited: 0
+  m_AudioClipForOnSelectExited: {fileID: 0}
+  m_PlayAudioClipOnSelectCanceled: 0
+  m_AudioClipForOnSelectCanceled: {fileID: 0}
+  m_PlayAudioClipOnHoverEntered: 0
+  m_AudioClipForOnHoverEntered: {fileID: 0}
+  m_PlayAudioClipOnHoverExited: 0
+  m_AudioClipForOnHoverExited: {fileID: 0}
+  m_PlayAudioClipOnHoverCanceled: 0
+  m_AudioClipForOnHoverCanceled: {fileID: 0}
+  m_AllowHoverAudioWhileSelecting: 1
+  m_PlayHapticsOnSelectEntered: 0
+  m_HapticSelectEnterIntensity: 0
+  m_HapticSelectEnterDuration: 0
+  m_PlayHapticsOnSelectExited: 0
+  m_HapticSelectExitIntensity: 0
+  m_HapticSelectExitDuration: 0
+  m_PlayHapticsOnSelectCanceled: 0
+  m_HapticSelectCancelIntensity: 0
+  m_HapticSelectCancelDuration: 0
+  m_PlayHapticsOnHoverEntered: 0
+  m_HapticHoverEnterIntensity: 0
+  m_HapticHoverEnterDuration: 0
+  m_PlayHapticsOnHoverExited: 0
+  m_HapticHoverExitIntensity: 0
+  m_HapticHoverExitDuration: 0
+  m_PlayHapticsOnHoverCanceled: 0
+  m_HapticHoverCancelIntensity: 0
+  m_HapticHoverCancelDuration: 0
+  m_AllowHoverHapticsWhileSelecting: 1
+  m_LineType: 0
+  m_BlendVisualLinePoints: 1
+  m_MaxRaycastDistance: 30
+  m_RayOriginTransform: {fileID: 0}
+  m_ReferenceFrame: {fileID: 0}
+  m_Velocity: 16
+  m_Acceleration: 9.8
+  m_AdditionalGroundHeight: 0.1
+  m_AdditionalFlightTime: 0.5
+  m_EndPointDistance: 30
+  m_EndPointHeight: -10
+  m_ControlPointDistance: 10
+  m_ControlPointHeight: 5
+  m_SampleFrequency: 20
+  m_HitDetectionType: 0
+  m_SphereCastRadius: 0.1
+  m_ConeCastAngle: 6
+  m_LiveConeCastDebugVisuals: 0
+  m_RaycastMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_RaycastTriggerInteraction: 1
+  m_RaycastSnapVolumeInteraction: 1
+  m_HitClosestOnly: 0
+  m_HoverToSelect: 0
+  m_HoverTimeToSelect: 0.5
+  m_AutoDeselect: 0
+  m_TimeToAutoDeselect: 3
+  m_EnableUIInteraction: 1
+  m_BlockUIOnInteractableSelection: 1
+  m_AllowAnchorControl: 1
+  m_UseForceGrab: 1
+  m_RotateSpeed: 180
+  m_TranslateSpeed: 1
+  m_AnchorRotateReferenceFrame: {fileID: 0}
+  m_AnchorRotationMode: 0
+  m_UIHoverEntered:
+    m_PersistentCalls:
+      m_Calls: []
+  m_UIHoverExited:
+    m_PersistentCalls:
+      m_Calls: []
+  m_EnableARRaycasting: 0
+  m_OccludeARHitsWith3DObjects: 0
+  m_OccludeARHitsWith2DObjects: 0
+  m_ScaleMode: 0
+--- !u!114 &1356228417
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1788976988}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0dbf27d230a46b643baa2473b0e1521f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  partName: Left common Csrotid Artery
+--- !u!64 &1356228418
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1788976988}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -804245108283607502, guid: 0de72b2d3b4a19642bb1cccb02572084, type: 3}
+--- !u!1 &1492047529
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1492047530}
+  - component: {fileID: 1492047533}
+  - component: {fileID: 1492047532}
+  - component: {fileID: 1492047531}
+  - component: {fileID: 1492047534}
+  m_Layer: 5
+  m_Name: Canvas
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1492047530
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1492047529}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 0, y: 0, z: 0}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 1037811356}
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
+  m_Pivot: {x: 0, y: 0}
+--- !u!114 &1492047531
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1492047529}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dc42784cf147c0c48a680349fa168899, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_IgnoreReversedGraphics: 1
+  m_BlockingObjects: 0
+  m_BlockingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+--- !u!114 &1492047532
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1492047529}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0cd44c1031e13a943bb63640046fad76, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_UiScaleMode: 0
+  m_ReferencePixelsPerUnit: 100
+  m_ScaleFactor: 1
+  m_ReferenceResolution: {x: 800, y: 600}
+  m_ScreenMatchMode: 0
+  m_MatchWidthOrHeight: 0
+  m_PhysicalUnit: 3
+  m_FallbackScreenDPI: 96
+  m_DefaultSpriteDPI: 96
+  m_DynamicPixelsPerUnit: 1
+  m_PresetInfoIsWorld: 0
+--- !u!223 &1492047533
+Canvas:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1492047529}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_RenderMode: 0
+  m_Camera: {fileID: 0}
+  m_PlaneDistance: 100
+  m_PixelPerfect: 0
+  m_ReceivesEvents: 1
+  m_OverrideSorting: 0
+  m_OverridePixelPerfect: 0
+  m_SortingBucketNormalizedSize: 0
+  m_VertexColorAlwaysGammaSpace: 0
+  m_AdditionalShaderChannelsFlag: 25
+  m_UpdateRectTransformForStandalone: 0
+  m_SortingLayerID: 0
+  m_SortingOrder: 0
+  m_TargetDisplay: 0
+--- !u!114 &1492047534
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1492047529}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4ab1f295525b0f74fac708b19755f334, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  partText: {fileID: 1037811357}
+--- !u!114 &1497704874
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1788976998}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0dbf27d230a46b643baa2473b0e1521f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  partName: Interventricular Spetum
+--- !u!64 &1497704875
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1788976998}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -3566603488815457904, guid: 0de72b2d3b4a19642bb1cccb02572084, type: 3}
+--- !u!114 &1556849350
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1788976944}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0dbf27d230a46b643baa2473b0e1521f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  partName: Circumflex Branch of Left Coronary Artery
+--- !u!64 &1556849351
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1788976944}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -1441299251376867788, guid: 0de72b2d3b4a19642bb1cccb02572084, type: 3}
+--- !u!114 &1664888432
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1788976943}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0dbf27d230a46b643baa2473b0e1521f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  partName: Right Pulmonary Artery
+--- !u!64 &1664888433
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1788976943}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -4746084967088348210, guid: 0de72b2d3b4a19642bb1cccb02572084, type: 3}
+--- !u!114 &1700995792
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1788976989}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0dbf27d230a46b643baa2473b0e1521f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  partName: Left subclavian Artery
+--- !u!64 &1700995793
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1788976989}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -1440571164253954705, guid: 0de72b2d3b4a19642bb1cccb02572084, type: 3}
+--- !u!114 &1740652287
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1788976951}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0dbf27d230a46b643baa2473b0e1521f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  partName: Middle Cardiac Vein
+--- !u!64 &1740652288
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1788976951}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -5110006801319928796, guid: 0de72b2d3b4a19642bb1cccb02572084, type: 3}
+--- !u!1 &1760800031
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1760800032}
+  m_Layer: 0
+  m_Name: HeartPosition
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1760800032
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1760800031}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0.7071068, z: 0, w: 0.7071068}
+  m_LocalPosition: {x: 2.771, y: 1.95, z: 3.884}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 90, z: 0}
+--- !u!114 &1766545101
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1788976982}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0dbf27d230a46b643baa2473b0e1521f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  partName: Brachiocephalic Trunk
+--- !u!64 &1766545102
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1788976982}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -1462820313522513108, guid: 0de72b2d3b4a19642bb1cccb02572084, type: 3}
+--- !u!1001 &1788976941
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: -9198167156178811400, guid: 0de72b2d3b4a19642bb1cccb02572084,
+        type: 3}
+      propertyPath: m_Name
+      value: Circumflex Artery
+      objectReference: {fileID: 0}
+    - target: {fileID: -8826331403510148028, guid: 0de72b2d3b4a19642bb1cccb02572084,
+        type: 3}
+      propertyPath: m_Name
+      value: Left subclavian Artery
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 0de72b2d3b4a19642bb1cccb02572084,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.03443751
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 0de72b2d3b4a19642bb1cccb02572084,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.03443751
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 0de72b2d3b4a19642bb1cccb02572084,
+        type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.03443751
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 0de72b2d3b4a19642bb1cccb02572084,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 2.739
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 0de72b2d3b4a19642bb1cccb02572084,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1.925
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 0de72b2d3b4a19642bb1cccb02572084,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 5.123
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 0de72b2d3b4a19642bb1cccb02572084,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 0de72b2d3b4a19642bb1cccb02572084,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 0de72b2d3b4a19642bb1cccb02572084,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 0de72b2d3b4a19642bb1cccb02572084,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 0de72b2d3b4a19642bb1cccb02572084,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 0de72b2d3b4a19642bb1cccb02572084,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 90
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 0de72b2d3b4a19642bb1cccb02572084,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8629556072227711523, guid: 0de72b2d3b4a19642bb1cccb02572084,
+        type: 3}
+      propertyPath: m_Name
+      value: Right Brachiocephalic Vein
+      objectReference: {fileID: 0}
+    - target: {fileID: -8629322751499659586, guid: 0de72b2d3b4a19642bb1cccb02572084,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 0304c1a0bdfbbaa4888df1eb0bae901c, type: 2}
+    - target: {fileID: -8547739652813467285, guid: 0de72b2d3b4a19642bb1cccb02572084,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 0304c1a0bdfbbaa4888df1eb0bae901c, type: 2}
+    - target: {fileID: -8537611966201238633, guid: 0de72b2d3b4a19642bb1cccb02572084,
+        type: 3}
+      propertyPath: m_Name
+      value: Right Pulmonary Artery
+      objectReference: {fileID: 0}
+    - target: {fileID: -7972849979555274348, guid: 0de72b2d3b4a19642bb1cccb02572084,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 0304c1a0bdfbbaa4888df1eb0bae901c, type: 2}
+    - target: {fileID: -7848016922876303581, guid: 0de72b2d3b4a19642bb1cccb02572084,
+        type: 3}
+      propertyPath: m_Name
+      value: Right Marginal Artery
+      objectReference: {fileID: 0}
+    - target: {fileID: -7803017122765766718, guid: 0de72b2d3b4a19642bb1cccb02572084,
+        type: 3}
+      propertyPath: m_Name
+      value: Right Coronary Artery
+      objectReference: {fileID: 0}
+    - target: {fileID: -7745464340136465033, guid: 0de72b2d3b4a19642bb1cccb02572084,
+        type: 3}
+      propertyPath: m_Name
+      value: Brachiocephalic Trunk
+      objectReference: {fileID: 0}
+    - target: {fileID: -7551496919131323438, guid: 0de72b2d3b4a19642bb1cccb02572084,
+        type: 3}
+      propertyPath: m_Name
+      value: Aortic Arch
+      objectReference: {fileID: 0}
+    - target: {fileID: -7485094284127387509, guid: 0de72b2d3b4a19642bb1cccb02572084,
+        type: 3}
+      propertyPath: m_Name
+      value: Left Brachiocephalic Vein
+      objectReference: {fileID: 0}
+    - target: {fileID: -7057484294157161498, guid: 0de72b2d3b4a19642bb1cccb02572084,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 0304c1a0bdfbbaa4888df1eb0bae901c, type: 2}
+    - target: {fileID: -6667403682488475268, guid: 0de72b2d3b4a19642bb1cccb02572084,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 0304c1a0bdfbbaa4888df1eb0bae901c, type: 2}
+    - target: {fileID: -6212157916719148394, guid: 0de72b2d3b4a19642bb1cccb02572084,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 0304c1a0bdfbbaa4888df1eb0bae901c, type: 2}
+    - target: {fileID: -6088079655646715210, guid: 0de72b2d3b4a19642bb1cccb02572084,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 0304c1a0bdfbbaa4888df1eb0bae901c, type: 2}
+    - target: {fileID: -6044724722381673281, guid: 0de72b2d3b4a19642bb1cccb02572084,
+        type: 3}
+      propertyPath: m_Name
+      value: Right Pulmonary Veins
+      objectReference: {fileID: 0}
+    - target: {fileID: -5659612458614662112, guid: 0de72b2d3b4a19642bb1cccb02572084,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 0304c1a0bdfbbaa4888df1eb0bae901c, type: 2}
+    - target: {fileID: -5579837920089457163, guid: 0de72b2d3b4a19642bb1cccb02572084,
+        type: 3}
+      propertyPath: m_Name
+      value: Right Coronary Artery
+      objectReference: {fileID: 0}
+    - target: {fileID: -5497988974825366645, guid: 0de72b2d3b4a19642bb1cccb02572084,
+        type: 3}
+      propertyPath: m_Name
+      value: Posterior Interventricular Artery
+      objectReference: {fileID: 0}
+    - target: {fileID: -5115689714916302577, guid: 0de72b2d3b4a19642bb1cccb02572084,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 0304c1a0bdfbbaa4888df1eb0bae901c, type: 2}
+    - target: {fileID: -4711678544387209790, guid: 0de72b2d3b4a19642bb1cccb02572084,
+        type: 3}
+      propertyPath: m_Name
+      value: Left Pulmonary Artey
+      objectReference: {fileID: 0}
+    - target: {fileID: -4594685373995453108, guid: 0de72b2d3b4a19642bb1cccb02572084,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 0304c1a0bdfbbaa4888df1eb0bae901c, type: 2}
+    - target: {fileID: -4465261132303362078, guid: 0de72b2d3b4a19642bb1cccb02572084,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 0304c1a0bdfbbaa4888df1eb0bae901c, type: 2}
+    - target: {fileID: -4398984299639169147, guid: 0de72b2d3b4a19642bb1cccb02572084,
+        type: 3}
+      propertyPath: m_Name
+      value: Middle Cardiac Vein
+      objectReference: {fileID: 0}
+    - target: {fileID: -4203200299666024250, guid: 0de72b2d3b4a19642bb1cccb02572084,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 0304c1a0bdfbbaa4888df1eb0bae901c, type: 2}
+    - target: {fileID: -4138656593270156619, guid: 0de72b2d3b4a19642bb1cccb02572084,
+        type: 3}
+      propertyPath: m_Name
+      value: Posterior Interventricular Artery
+      objectReference: {fileID: 0}
+    - target: {fileID: -4119422840342896813, guid: 0de72b2d3b4a19642bb1cccb02572084,
+        type: 3}
+      propertyPath: m_Name
+      value: Pulmonary Trunk
+      objectReference: {fileID: 0}
+    - target: {fileID: -3796985958044368996, guid: 0de72b2d3b4a19642bb1cccb02572084,
+        type: 3}
+      propertyPath: m_Name
+      value: Left Coronary Artery
+      objectReference: {fileID: 0}
+    - target: {fileID: -3770773014085944613, guid: 0de72b2d3b4a19642bb1cccb02572084,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 0304c1a0bdfbbaa4888df1eb0bae901c, type: 2}
+    - target: {fileID: -3675110487596048492, guid: 0de72b2d3b4a19642bb1cccb02572084,
+        type: 3}
+      propertyPath: m_Name
+      value: Right Coronary Artery
+      objectReference: {fileID: 0}
+    - target: {fileID: -3644533813800235396, guid: 0de72b2d3b4a19642bb1cccb02572084,
+        type: 3}
+      propertyPath: m_Name
+      value: Marginal Artery
+      objectReference: {fileID: 0}
+    - target: {fileID: -3348529006922089467, guid: 0de72b2d3b4a19642bb1cccb02572084,
+        type: 3}
+      propertyPath: m_Name
+      value: Circumflex Branch of Left Coronary Artery
+      objectReference: {fileID: 0}
+    - target: {fileID: -2777618476543288393, guid: 0de72b2d3b4a19642bb1cccb02572084,
+        type: 3}
+      propertyPath: m_Name
+      value: Right Marginal Artery
+      objectReference: {fileID: 0}
+    - target: {fileID: -2715209109991556517, guid: 0de72b2d3b4a19642bb1cccb02572084,
+        type: 3}
+      propertyPath: m_Name
+      value: Left common Csrotid Artery
+      objectReference: {fileID: 0}
+    - target: {fileID: -2310675672546243515, guid: 0de72b2d3b4a19642bb1cccb02572084,
+        type: 3}
+      propertyPath: m_Name
+      value: Left Pulmonary Veins
+      objectReference: {fileID: 0}
+    - target: {fileID: -2083224878510826935, guid: 0de72b2d3b4a19642bb1cccb02572084,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 0304c1a0bdfbbaa4888df1eb0bae901c, type: 2}
+    - target: {fileID: -2011500531793177146, guid: 0de72b2d3b4a19642bb1cccb02572084,
+        type: 3}
+      propertyPath: m_Name
+      value: Anterior Cardiac Vein
+      objectReference: {fileID: 0}
+    - target: {fileID: -1763664452181897728, guid: 0de72b2d3b4a19642bb1cccb02572084,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 0304c1a0bdfbbaa4888df1eb0bae901c, type: 2}
+    - target: {fileID: -1695161742044647635, guid: 0de72b2d3b4a19642bb1cccb02572084,
+        type: 3}
+      propertyPath: m_Name
+      value: Left Coronary Artery
+      objectReference: {fileID: 0}
+    - target: {fileID: -1552872325873171280, guid: 0de72b2d3b4a19642bb1cccb02572084,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 0304c1a0bdfbbaa4888df1eb0bae901c, type: 2}
+    - target: {fileID: -1399515546656022394, guid: 0de72b2d3b4a19642bb1cccb02572084,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 0304c1a0bdfbbaa4888df1eb0bae901c, type: 2}
+    - target: {fileID: -1047380836813657953, guid: 0de72b2d3b4a19642bb1cccb02572084,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 0304c1a0bdfbbaa4888df1eb0bae901c, type: 2}
+    - target: {fileID: -920188573436152400, guid: 0de72b2d3b4a19642bb1cccb02572084,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 0304c1a0bdfbbaa4888df1eb0bae901c, type: 2}
+    - target: {fileID: -857456275719595759, guid: 0de72b2d3b4a19642bb1cccb02572084,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 0304c1a0bdfbbaa4888df1eb0bae901c, type: 2}
+    - target: {fileID: -611423708363569078, guid: 0de72b2d3b4a19642bb1cccb02572084,
+        type: 3}
+      propertyPath: m_Name
+      value: Anterior Cardiac Vein
+      objectReference: {fileID: 0}
+    - target: {fileID: -543227557359299562, guid: 0de72b2d3b4a19642bb1cccb02572084,
+        type: 3}
+      propertyPath: m_Name
+      value: Left Artium
+      objectReference: {fileID: 0}
+    - target: {fileID: 204705806925577771, guid: 0de72b2d3b4a19642bb1cccb02572084,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 0304c1a0bdfbbaa4888df1eb0bae901c, type: 2}
+    - target: {fileID: 216770647519762967, guid: 0de72b2d3b4a19642bb1cccb02572084,
+        type: 3}
+      propertyPath: m_Name
+      value: Middle Cardiac Vein
+      objectReference: {fileID: 0}
+    - target: {fileID: 236622496110472692, guid: 0de72b2d3b4a19642bb1cccb02572084,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 0304c1a0bdfbbaa4888df1eb0bae901c, type: 2}
+    - target: {fileID: 268765339016031829, guid: 0de72b2d3b4a19642bb1cccb02572084,
+        type: 3}
+      propertyPath: m_Name
+      value: Left Coronary Artery
+      objectReference: {fileID: 0}
+    - target: {fileID: 314531443586398058, guid: 0de72b2d3b4a19642bb1cccb02572084,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 0304c1a0bdfbbaa4888df1eb0bae901c, type: 2}
+    - target: {fileID: 375053517150342045, guid: 0de72b2d3b4a19642bb1cccb02572084,
+        type: 3}
+      propertyPath: m_Name
+      value: Anterior Intervantricular Artery
+      objectReference: {fileID: 0}
+    - target: {fileID: 646506821234874953, guid: 0de72b2d3b4a19642bb1cccb02572084,
+        type: 3}
+      propertyPath: m_Name
+      value: Pulmonary Trunk
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 0de72b2d3b4a19642bb1cccb02572084,
+        type: 3}
+      propertyPath: m_Name
+      value: Heart2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1450289069846394556, guid: 0de72b2d3b4a19642bb1cccb02572084,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 0304c1a0bdfbbaa4888df1eb0bae901c, type: 2}
+    - target: {fileID: 1535322395905013594, guid: 0de72b2d3b4a19642bb1cccb02572084,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 0304c1a0bdfbbaa4888df1eb0bae901c, type: 2}
+    - target: {fileID: 1863938757384217875, guid: 0de72b2d3b4a19642bb1cccb02572084,
+        type: 3}
+      propertyPath: m_Name
+      value: Great Cardiac Vein
+      objectReference: {fileID: 0}
+    - target: {fileID: 2006685561207721615, guid: 0de72b2d3b4a19642bb1cccb02572084,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 0304c1a0bdfbbaa4888df1eb0bae901c, type: 2}
+    - target: {fileID: 2225520344035866949, guid: 0de72b2d3b4a19642bb1cccb02572084,
+        type: 3}
+      propertyPath: m_Name
+      value: Interventricular Spetum
+      objectReference: {fileID: 0}
+    - target: {fileID: 2414268845987388180, guid: 0de72b2d3b4a19642bb1cccb02572084,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 0304c1a0bdfbbaa4888df1eb0bae901c, type: 2}
+    - target: {fileID: 2506628686021762560, guid: 0de72b2d3b4a19642bb1cccb02572084,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 0304c1a0bdfbbaa4888df1eb0bae901c, type: 2}
+    - target: {fileID: 2563315818222499468, guid: 0de72b2d3b4a19642bb1cccb02572084,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 0304c1a0bdfbbaa4888df1eb0bae901c, type: 2}
+    - target: {fileID: 2565757700776745092, guid: 0de72b2d3b4a19642bb1cccb02572084,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 0304c1a0bdfbbaa4888df1eb0bae901c, type: 2}
+    - target: {fileID: 2576582882990501552, guid: 0de72b2d3b4a19642bb1cccb02572084,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 0304c1a0bdfbbaa4888df1eb0bae901c, type: 2}
+    - target: {fileID: 2666343916132341422, guid: 0de72b2d3b4a19642bb1cccb02572084,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 0304c1a0bdfbbaa4888df1eb0bae901c, type: 2}
+    - target: {fileID: 2883315486447653491, guid: 0de72b2d3b4a19642bb1cccb02572084,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 0304c1a0bdfbbaa4888df1eb0bae901c, type: 2}
+    - target: {fileID: 3009440119278383115, guid: 0de72b2d3b4a19642bb1cccb02572084,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 0304c1a0bdfbbaa4888df1eb0bae901c, type: 2}
+    - target: {fileID: 3476718687788009972, guid: 0de72b2d3b4a19642bb1cccb02572084,
+        type: 3}
+      propertyPath: m_Name
+      value: Right Pulmonary Veins
+      objectReference: {fileID: 0}
+    - target: {fileID: 3684024082461321029, guid: 0de72b2d3b4a19642bb1cccb02572084,
+        type: 3}
+      propertyPath: m_Name
+      value: Posterior Interventricular Artery
+      objectReference: {fileID: 0}
+    - target: {fileID: 3692042970339418287, guid: 0de72b2d3b4a19642bb1cccb02572084,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 0304c1a0bdfbbaa4888df1eb0bae901c, type: 2}
+    - target: {fileID: 3774481363552238197, guid: 0de72b2d3b4a19642bb1cccb02572084,
+        type: 3}
+      propertyPath: m_Name
+      value: Left Ventricle
+      objectReference: {fileID: 0}
+    - target: {fileID: 3818019413515885309, guid: 0de72b2d3b4a19642bb1cccb02572084,
+        type: 3}
+      propertyPath: m_Name
+      value: Right Coronary Artery
+      objectReference: {fileID: 0}
+    - target: {fileID: 3849340400841891130, guid: 0de72b2d3b4a19642bb1cccb02572084,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 0304c1a0bdfbbaa4888df1eb0bae901c, type: 2}
+    - target: {fileID: 4197603983318194544, guid: 0de72b2d3b4a19642bb1cccb02572084,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 0304c1a0bdfbbaa4888df1eb0bae901c, type: 2}
+    - target: {fileID: 4218430700976858594, guid: 0de72b2d3b4a19642bb1cccb02572084,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 0304c1a0bdfbbaa4888df1eb0bae901c, type: 2}
+    - target: {fileID: 4535970729305954798, guid: 0de72b2d3b4a19642bb1cccb02572084,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 0304c1a0bdfbbaa4888df1eb0bae901c, type: 2}
+    - target: {fileID: 4648835695049183461, guid: 0de72b2d3b4a19642bb1cccb02572084,
+        type: 3}
+      propertyPath: m_Name
+      value: Circumflex Branch of Left Coronary Artery
+      objectReference: {fileID: 0}
+    - target: {fileID: 4722873655899047167, guid: 0de72b2d3b4a19642bb1cccb02572084,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 0304c1a0bdfbbaa4888df1eb0bae901c, type: 2}
+    - target: {fileID: 4788307347899759577, guid: 0de72b2d3b4a19642bb1cccb02572084,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 0304c1a0bdfbbaa4888df1eb0bae901c, type: 2}
+    - target: {fileID: 4970768318269038409, guid: 0de72b2d3b4a19642bb1cccb02572084,
+        type: 3}
+      propertyPath: m_Name
+      value: 'LeftPulmonary Veins '
+      objectReference: {fileID: 0}
+    - target: {fileID: 5137655410750692623, guid: 0de72b2d3b4a19642bb1cccb02572084,
+        type: 3}
+      propertyPath: m_Name
+      value: Inferior Vena Cava
+      objectReference: {fileID: 0}
+    - target: {fileID: 5208647760106110109, guid: 0de72b2d3b4a19642bb1cccb02572084,
+        type: 3}
+      propertyPath: m_Name
+      value: Marginal Artery
+      objectReference: {fileID: 0}
+    - target: {fileID: 5226733095978034872, guid: 0de72b2d3b4a19642bb1cccb02572084,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 0304c1a0bdfbbaa4888df1eb0bae901c, type: 2}
+    - target: {fileID: 5346975561938773816, guid: 0de72b2d3b4a19642bb1cccb02572084,
+        type: 3}
+      propertyPath: m_Name
+      value: Posterior Interventricular Artery
+      objectReference: {fileID: 0}
+    - target: {fileID: 5401656475005922642, guid: 0de72b2d3b4a19642bb1cccb02572084,
+        type: 3}
+      propertyPath: m_Name
+      value: Interventricular Spetum
+      objectReference: {fileID: 0}
+    - target: {fileID: 5917194060731971680, guid: 0de72b2d3b4a19642bb1cccb02572084,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 0304c1a0bdfbbaa4888df1eb0bae901c, type: 2}
+    - target: {fileID: 6462559085034363580, guid: 0de72b2d3b4a19642bb1cccb02572084,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 0304c1a0bdfbbaa4888df1eb0bae901c, type: 2}
+    - target: {fileID: 6800982359323516410, guid: 0de72b2d3b4a19642bb1cccb02572084,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 0304c1a0bdfbbaa4888df1eb0bae901c, type: 2}
+    - target: {fileID: 7032972285236964473, guid: 0de72b2d3b4a19642bb1cccb02572084,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 0304c1a0bdfbbaa4888df1eb0bae901c, type: 2}
+    - target: {fileID: 7213302220276038521, guid: 0de72b2d3b4a19642bb1cccb02572084,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 0304c1a0bdfbbaa4888df1eb0bae901c, type: 2}
+    - target: {fileID: 7306557380061354939, guid: 0de72b2d3b4a19642bb1cccb02572084,
+        type: 3}
+      propertyPath: m_Name
+      value: Right Coronary Artery
+      objectReference: {fileID: 0}
+    - target: {fileID: 7329201171411057639, guid: 0de72b2d3b4a19642bb1cccb02572084,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 0304c1a0bdfbbaa4888df1eb0bae901c, type: 2}
+    - target: {fileID: 7733346150978683957, guid: 0de72b2d3b4a19642bb1cccb02572084,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 0304c1a0bdfbbaa4888df1eb0bae901c, type: 2}
+    - target: {fileID: 7882033201602235697, guid: 0de72b2d3b4a19642bb1cccb02572084,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 0304c1a0bdfbbaa4888df1eb0bae901c, type: 2}
+    - target: {fileID: 7889085724609924566, guid: 0de72b2d3b4a19642bb1cccb02572084,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 0304c1a0bdfbbaa4888df1eb0bae901c, type: 2}
+    - target: {fileID: 7919310054251214000, guid: 0de72b2d3b4a19642bb1cccb02572084,
+        type: 3}
+      propertyPath: m_Name
+      value: Right Coronary Artery
+      objectReference: {fileID: 0}
+    - target: {fileID: 7973725615035196459, guid: 0de72b2d3b4a19642bb1cccb02572084,
+        type: 3}
+      propertyPath: m_Name
+      value: Right Brachiocephalic Vein
+      objectReference: {fileID: 0}
+    - target: {fileID: 8021124531335987340, guid: 0de72b2d3b4a19642bb1cccb02572084,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 0304c1a0bdfbbaa4888df1eb0bae901c, type: 2}
+    - target: {fileID: 8331482999037530116, guid: 0de72b2d3b4a19642bb1cccb02572084,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 0304c1a0bdfbbaa4888df1eb0bae901c, type: 2}
+    - target: {fileID: 8369697474973400232, guid: 0de72b2d3b4a19642bb1cccb02572084,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 0304c1a0bdfbbaa4888df1eb0bae901c, type: 2}
+    - target: {fileID: 8467368339314769670, guid: 0de72b2d3b4a19642bb1cccb02572084,
+        type: 3}
+      propertyPath: m_Name
+      value: Posterior Interventricular Artery
+      objectReference: {fileID: 0}
+    - target: {fileID: 9143908202765191357, guid: 0de72b2d3b4a19642bb1cccb02572084,
+        type: 3}
+      propertyPath: m_Name
+      value: Left Coronary Artery
+      objectReference: {fileID: 0}
+    - target: {fileID: 9182871284628286215, guid: 0de72b2d3b4a19642bb1cccb02572084,
+        type: 3}
+      propertyPath: m_Name
+      value: Anterior Cardiac Vein
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects:
+    - {fileID: 5766734363062106813, guid: 0de72b2d3b4a19642bb1cccb02572084, type: 3}
+    - {fileID: -8402085741083034618, guid: 0de72b2d3b4a19642bb1cccb02572084, type: 3}
+    - {fileID: 4387350612174685932, guid: 0de72b2d3b4a19642bb1cccb02572084, type: 3}
+    - {fileID: -490469682126972471, guid: 0de72b2d3b4a19642bb1cccb02572084, type: 3}
+    - {fileID: -4475239374962795191, guid: 0de72b2d3b4a19642bb1cccb02572084, type: 3}
+    - {fileID: 3200581630613997455, guid: 0de72b2d3b4a19642bb1cccb02572084, type: 3}
+    - {fileID: 5891756543752700022, guid: 0de72b2d3b4a19642bb1cccb02572084, type: 3}
+    - {fileID: 9157429009807637606, guid: 0de72b2d3b4a19642bb1cccb02572084, type: 3}
+    m_AddedGameObjects: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 0de72b2d3b4a19642bb1cccb02572084,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 602559681}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 0de72b2d3b4a19642bb1cccb02572084,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 602559680}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 0de72b2d3b4a19642bb1cccb02572084,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 245477132}
+    - targetCorrespondingSourceObject: {fileID: 2225520344035866949, guid: 0de72b2d3b4a19642bb1cccb02572084,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1788977005}
+    - targetCorrespondingSourceObject: {fileID: 2225520344035866949, guid: 0de72b2d3b4a19642bb1cccb02572084,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1788977004}
+    - targetCorrespondingSourceObject: {fileID: 5401656475005922642, guid: 0de72b2d3b4a19642bb1cccb02572084,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1497704875}
+    - targetCorrespondingSourceObject: {fileID: 5401656475005922642, guid: 0de72b2d3b4a19642bb1cccb02572084,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1497704874}
+    - targetCorrespondingSourceObject: {fileID: -543227557359299562, guid: 0de72b2d3b4a19642bb1cccb02572084,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1788977003}
+    - targetCorrespondingSourceObject: {fileID: -543227557359299562, guid: 0de72b2d3b4a19642bb1cccb02572084,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1788977002}
+    - targetCorrespondingSourceObject: {fileID: 2536860485661137111, guid: 0de72b2d3b4a19642bb1cccb02572084,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1833259198}
+    - targetCorrespondingSourceObject: {fileID: 2536860485661137111, guid: 0de72b2d3b4a19642bb1cccb02572084,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1833259197}
+    - targetCorrespondingSourceObject: {fileID: 3774481363552238197, guid: 0de72b2d3b4a19642bb1cccb02572084,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1788977001}
+    - targetCorrespondingSourceObject: {fileID: 3774481363552238197, guid: 0de72b2d3b4a19642bb1cccb02572084,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1788977000}
+    - targetCorrespondingSourceObject: {fileID: -4711678544387209790, guid: 0de72b2d3b4a19642bb1cccb02572084,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1176946338}
+    - targetCorrespondingSourceObject: {fileID: -4711678544387209790, guid: 0de72b2d3b4a19642bb1cccb02572084,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1176946337}
+    - targetCorrespondingSourceObject: {fileID: -8629556072227711523, guid: 0de72b2d3b4a19642bb1cccb02572084,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1971224100}
+    - targetCorrespondingSourceObject: {fileID: -8629556072227711523, guid: 0de72b2d3b4a19642bb1cccb02572084,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1971224099}
+    - targetCorrespondingSourceObject: {fileID: 7973725615035196459, guid: 0de72b2d3b4a19642bb1cccb02572084,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 167225456}
+    - targetCorrespondingSourceObject: {fileID: 7973725615035196459, guid: 0de72b2d3b4a19642bb1cccb02572084,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 167225455}
+    - targetCorrespondingSourceObject: {fileID: 646506821234874953, guid: 0de72b2d3b4a19642bb1cccb02572084,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1794651679}
+    - targetCorrespondingSourceObject: {fileID: 646506821234874953, guid: 0de72b2d3b4a19642bb1cccb02572084,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1794651678}
+    - targetCorrespondingSourceObject: {fileID: -4119422840342896813, guid: 0de72b2d3b4a19642bb1cccb02572084,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 352636385}
+    - targetCorrespondingSourceObject: {fileID: -4119422840342896813, guid: 0de72b2d3b4a19642bb1cccb02572084,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 352636384}
+    - targetCorrespondingSourceObject: {fileID: -8826331403510148028, guid: 0de72b2d3b4a19642bb1cccb02572084,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1700995793}
+    - targetCorrespondingSourceObject: {fileID: -8826331403510148028, guid: 0de72b2d3b4a19642bb1cccb02572084,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1700995792}
+    - targetCorrespondingSourceObject: {fileID: -2715209109991556517, guid: 0de72b2d3b4a19642bb1cccb02572084,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1356228418}
+    - targetCorrespondingSourceObject: {fileID: -2715209109991556517, guid: 0de72b2d3b4a19642bb1cccb02572084,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1356228417}
+    - targetCorrespondingSourceObject: {fileID: -2310675672546243515, guid: 0de72b2d3b4a19642bb1cccb02572084,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1238817445}
+    - targetCorrespondingSourceObject: {fileID: -2310675672546243515, guid: 0de72b2d3b4a19642bb1cccb02572084,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1238817444}
+    - targetCorrespondingSourceObject: {fileID: 4970768318269038409, guid: 0de72b2d3b4a19642bb1cccb02572084,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1974510841}
+    - targetCorrespondingSourceObject: {fileID: 4970768318269038409, guid: 0de72b2d3b4a19642bb1cccb02572084,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1974510840}
+    - targetCorrespondingSourceObject: {fileID: -6044724722381673281, guid: 0de72b2d3b4a19642bb1cccb02572084,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1182691269}
+    - targetCorrespondingSourceObject: {fileID: -6044724722381673281, guid: 0de72b2d3b4a19642bb1cccb02572084,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1182691268}
+    - targetCorrespondingSourceObject: {fileID: 3476718687788009972, guid: 0de72b2d3b4a19642bb1cccb02572084,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 150093171}
+    - targetCorrespondingSourceObject: {fileID: 3476718687788009972, guid: 0de72b2d3b4a19642bb1cccb02572084,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 150093170}
+    - targetCorrespondingSourceObject: {fileID: -7745464340136465033, guid: 0de72b2d3b4a19642bb1cccb02572084,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1766545102}
+    - targetCorrespondingSourceObject: {fileID: -7745464340136465033, guid: 0de72b2d3b4a19642bb1cccb02572084,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1766545101}
+    - targetCorrespondingSourceObject: {fileID: -7551496919131323438, guid: 0de72b2d3b4a19642bb1cccb02572084,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 873417130}
+    - targetCorrespondingSourceObject: {fileID: -7551496919131323438, guid: 0de72b2d3b4a19642bb1cccb02572084,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 873417129}
+    - targetCorrespondingSourceObject: {fileID: 5137655410750692623, guid: 0de72b2d3b4a19642bb1cccb02572084,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1167202085}
+    - targetCorrespondingSourceObject: {fileID: 5137655410750692623, guid: 0de72b2d3b4a19642bb1cccb02572084,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1167202084}
+    - targetCorrespondingSourceObject: {fileID: -7485094284127387509, guid: 0de72b2d3b4a19642bb1cccb02572084,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 635580967}
+    - targetCorrespondingSourceObject: {fileID: -7485094284127387509, guid: 0de72b2d3b4a19642bb1cccb02572084,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 635580966}
+    - targetCorrespondingSourceObject: {fileID: -3796985958044368996, guid: 0de72b2d3b4a19642bb1cccb02572084,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 207239286}
+    - targetCorrespondingSourceObject: {fileID: -3796985958044368996, guid: 0de72b2d3b4a19642bb1cccb02572084,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 207239285}
+    - targetCorrespondingSourceObject: {fileID: -9198167156178811400, guid: 0de72b2d3b4a19642bb1cccb02572084,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 301732358}
+    - targetCorrespondingSourceObject: {fileID: -9198167156178811400, guid: 0de72b2d3b4a19642bb1cccb02572084,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 301732357}
+    - targetCorrespondingSourceObject: {fileID: 9143908202765191357, guid: 0de72b2d3b4a19642bb1cccb02572084,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 902007363}
+    - targetCorrespondingSourceObject: {fileID: 9143908202765191357, guid: 0de72b2d3b4a19642bb1cccb02572084,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 902007362}
+    - targetCorrespondingSourceObject: {fileID: 268765339016031829, guid: 0de72b2d3b4a19642bb1cccb02572084,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 908424157}
+    - targetCorrespondingSourceObject: {fileID: 268765339016031829, guid: 0de72b2d3b4a19642bb1cccb02572084,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 908424156}
+    - targetCorrespondingSourceObject: {fileID: 375053517150342045, guid: 0de72b2d3b4a19642bb1cccb02572084,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 649507002}
+    - targetCorrespondingSourceObject: {fileID: 375053517150342045, guid: 0de72b2d3b4a19642bb1cccb02572084,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 649507001}
+    - targetCorrespondingSourceObject: {fileID: -1695161742044647635, guid: 0de72b2d3b4a19642bb1cccb02572084,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 373566873}
+    - targetCorrespondingSourceObject: {fileID: -1695161742044647635, guid: 0de72b2d3b4a19642bb1cccb02572084,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 373566872}
+    - targetCorrespondingSourceObject: {fileID: 7306557380061354939, guid: 0de72b2d3b4a19642bb1cccb02572084,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 929365240}
+    - targetCorrespondingSourceObject: {fileID: 7306557380061354939, guid: 0de72b2d3b4a19642bb1cccb02572084,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 929365239}
+    - targetCorrespondingSourceObject: {fileID: -7848016922876303581, guid: 0de72b2d3b4a19642bb1cccb02572084,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1865149733}
+    - targetCorrespondingSourceObject: {fileID: -7848016922876303581, guid: 0de72b2d3b4a19642bb1cccb02572084,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1865149732}
+    - targetCorrespondingSourceObject: {fileID: -2777618476543288393, guid: 0de72b2d3b4a19642bb1cccb02572084,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1856536257}
+    - targetCorrespondingSourceObject: {fileID: -2777618476543288393, guid: 0de72b2d3b4a19642bb1cccb02572084,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1856536256}
+    - targetCorrespondingSourceObject: {fileID: -7803017122765766718, guid: 0de72b2d3b4a19642bb1cccb02572084,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 740564837}
+    - targetCorrespondingSourceObject: {fileID: -7803017122765766718, guid: 0de72b2d3b4a19642bb1cccb02572084,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 740564836}
+    - targetCorrespondingSourceObject: {fileID: 5208647760106110109, guid: 0de72b2d3b4a19642bb1cccb02572084,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 891218459}
+    - targetCorrespondingSourceObject: {fileID: 5208647760106110109, guid: 0de72b2d3b4a19642bb1cccb02572084,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 891218458}
+    - targetCorrespondingSourceObject: {fileID: 7919310054251214000, guid: 0de72b2d3b4a19642bb1cccb02572084,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 2055942361}
+    - targetCorrespondingSourceObject: {fileID: 7919310054251214000, guid: 0de72b2d3b4a19642bb1cccb02572084,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 2055942360}
+    - targetCorrespondingSourceObject: {fileID: -3675110487596048492, guid: 0de72b2d3b4a19642bb1cccb02572084,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1140739161}
+    - targetCorrespondingSourceObject: {fileID: -3675110487596048492, guid: 0de72b2d3b4a19642bb1cccb02572084,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1140739160}
+    - targetCorrespondingSourceObject: {fileID: 3684024082461321029, guid: 0de72b2d3b4a19642bb1cccb02572084,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 367254079}
+    - targetCorrespondingSourceObject: {fileID: 3684024082461321029, guid: 0de72b2d3b4a19642bb1cccb02572084,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 367254078}
+    - targetCorrespondingSourceObject: {fileID: 3818019413515885309, guid: 0de72b2d3b4a19642bb1cccb02572084,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 2024206237}
+    - targetCorrespondingSourceObject: {fileID: 3818019413515885309, guid: 0de72b2d3b4a19642bb1cccb02572084,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 2024206236}
+    - targetCorrespondingSourceObject: {fileID: -5579837920089457163, guid: 0de72b2d3b4a19642bb1cccb02572084,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1229852760}
+    - targetCorrespondingSourceObject: {fileID: -5579837920089457163, guid: 0de72b2d3b4a19642bb1cccb02572084,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1229852759}
+    - targetCorrespondingSourceObject: {fileID: -3644533813800235396, guid: 0de72b2d3b4a19642bb1cccb02572084,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1299408662}
+    - targetCorrespondingSourceObject: {fileID: -3644533813800235396, guid: 0de72b2d3b4a19642bb1cccb02572084,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1299408661}
+    - targetCorrespondingSourceObject: {fileID: -4138656593270156619, guid: 0de72b2d3b4a19642bb1cccb02572084,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 540652069}
+    - targetCorrespondingSourceObject: {fileID: -4138656593270156619, guid: 0de72b2d3b4a19642bb1cccb02572084,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 540652068}
+    - targetCorrespondingSourceObject: {fileID: 5346975561938773816, guid: 0de72b2d3b4a19642bb1cccb02572084,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 736319326}
+    - targetCorrespondingSourceObject: {fileID: 5346975561938773816, guid: 0de72b2d3b4a19642bb1cccb02572084,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 736319325}
+    - targetCorrespondingSourceObject: {fileID: 8467368339314769670, guid: 0de72b2d3b4a19642bb1cccb02572084,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 541364156}
+    - targetCorrespondingSourceObject: {fileID: 8467368339314769670, guid: 0de72b2d3b4a19642bb1cccb02572084,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 541364155}
+    - targetCorrespondingSourceObject: {fileID: -5497988974825366645, guid: 0de72b2d3b4a19642bb1cccb02572084,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1175811649}
+    - targetCorrespondingSourceObject: {fileID: -5497988974825366645, guid: 0de72b2d3b4a19642bb1cccb02572084,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1175811648}
+    - targetCorrespondingSourceObject: {fileID: 216770647519762967, guid: 0de72b2d3b4a19642bb1cccb02572084,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1798045727}
+    - targetCorrespondingSourceObject: {fileID: 216770647519762967, guid: 0de72b2d3b4a19642bb1cccb02572084,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1798045726}
+    - targetCorrespondingSourceObject: {fileID: -4398984299639169147, guid: 0de72b2d3b4a19642bb1cccb02572084,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1740652288}
+    - targetCorrespondingSourceObject: {fileID: -4398984299639169147, guid: 0de72b2d3b4a19642bb1cccb02572084,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1740652287}
+    - targetCorrespondingSourceObject: {fileID: -2011500531793177146, guid: 0de72b2d3b4a19642bb1cccb02572084,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 150221462}
+    - targetCorrespondingSourceObject: {fileID: -2011500531793177146, guid: 0de72b2d3b4a19642bb1cccb02572084,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 150221461}
+    - targetCorrespondingSourceObject: {fileID: 9182871284628286215, guid: 0de72b2d3b4a19642bb1cccb02572084,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 175231160}
+    - targetCorrespondingSourceObject: {fileID: 9182871284628286215, guid: 0de72b2d3b4a19642bb1cccb02572084,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 175231159}
+    - targetCorrespondingSourceObject: {fileID: 1863938757384217875, guid: 0de72b2d3b4a19642bb1cccb02572084,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 473041484}
+    - targetCorrespondingSourceObject: {fileID: 1863938757384217875, guid: 0de72b2d3b4a19642bb1cccb02572084,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 473041483}
+    - targetCorrespondingSourceObject: {fileID: -3348529006922089467, guid: 0de72b2d3b4a19642bb1cccb02572084,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 493770419}
+    - targetCorrespondingSourceObject: {fileID: -3348529006922089467, guid: 0de72b2d3b4a19642bb1cccb02572084,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 493770418}
+    - targetCorrespondingSourceObject: {fileID: -611423708363569078, guid: 0de72b2d3b4a19642bb1cccb02572084,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 129121527}
+    - targetCorrespondingSourceObject: {fileID: -611423708363569078, guid: 0de72b2d3b4a19642bb1cccb02572084,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 129121526}
+    - targetCorrespondingSourceObject: {fileID: 4648835695049183461, guid: 0de72b2d3b4a19642bb1cccb02572084,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1556849351}
+    - targetCorrespondingSourceObject: {fileID: 4648835695049183461, guid: 0de72b2d3b4a19642bb1cccb02572084,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1556849350}
+    - targetCorrespondingSourceObject: {fileID: -8537611966201238633, guid: 0de72b2d3b4a19642bb1cccb02572084,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1664888433}
+    - targetCorrespondingSourceObject: {fileID: -8537611966201238633, guid: 0de72b2d3b4a19642bb1cccb02572084,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1664888432}
+  m_SourcePrefab: {fileID: 100100000, guid: 0de72b2d3b4a19642bb1cccb02572084, type: 3}
+--- !u!1 &1788976942 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 0de72b2d3b4a19642bb1cccb02572084,
+    type: 3}
+  m_PrefabInstance: {fileID: 1788976941}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1788976943 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: -8537611966201238633, guid: 0de72b2d3b4a19642bb1cccb02572084,
+    type: 3}
+  m_PrefabInstance: {fileID: 1788976941}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1788976944 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4648835695049183461, guid: 0de72b2d3b4a19642bb1cccb02572084,
+    type: 3}
+  m_PrefabInstance: {fileID: 1788976941}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1788976945 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: -611423708363569078, guid: 0de72b2d3b4a19642bb1cccb02572084,
+    type: 3}
+  m_PrefabInstance: {fileID: 1788976941}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1788976947 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: -3348529006922089467, guid: 0de72b2d3b4a19642bb1cccb02572084,
+    type: 3}
+  m_PrefabInstance: {fileID: 1788976941}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1788976948 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1863938757384217875, guid: 0de72b2d3b4a19642bb1cccb02572084,
+    type: 3}
+  m_PrefabInstance: {fileID: 1788976941}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1788976949 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 9182871284628286215, guid: 0de72b2d3b4a19642bb1cccb02572084,
+    type: 3}
+  m_PrefabInstance: {fileID: 1788976941}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1788976950 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: -2011500531793177146, guid: 0de72b2d3b4a19642bb1cccb02572084,
+    type: 3}
+  m_PrefabInstance: {fileID: 1788976941}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1788976951 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: -4398984299639169147, guid: 0de72b2d3b4a19642bb1cccb02572084,
+    type: 3}
+  m_PrefabInstance: {fileID: 1788976941}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1788976952 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 216770647519762967, guid: 0de72b2d3b4a19642bb1cccb02572084,
+    type: 3}
+  m_PrefabInstance: {fileID: 1788976941}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1788976954 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: -5497988974825366645, guid: 0de72b2d3b4a19642bb1cccb02572084,
+    type: 3}
+  m_PrefabInstance: {fileID: 1788976941}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1788976955 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8467368339314769670, guid: 0de72b2d3b4a19642bb1cccb02572084,
+    type: 3}
+  m_PrefabInstance: {fileID: 1788976941}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1788976956 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5346975561938773816, guid: 0de72b2d3b4a19642bb1cccb02572084,
+    type: 3}
+  m_PrefabInstance: {fileID: 1788976941}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1788976957 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: -4138656593270156619, guid: 0de72b2d3b4a19642bb1cccb02572084,
+    type: 3}
+  m_PrefabInstance: {fileID: 1788976941}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1788976958 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: -3644533813800235396, guid: 0de72b2d3b4a19642bb1cccb02572084,
+    type: 3}
+  m_PrefabInstance: {fileID: 1788976941}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1788976959 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: -5579837920089457163, guid: 0de72b2d3b4a19642bb1cccb02572084,
+    type: 3}
+  m_PrefabInstance: {fileID: 1788976941}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1788976960 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3818019413515885309, guid: 0de72b2d3b4a19642bb1cccb02572084,
+    type: 3}
+  m_PrefabInstance: {fileID: 1788976941}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1788976961 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3684024082461321029, guid: 0de72b2d3b4a19642bb1cccb02572084,
+    type: 3}
+  m_PrefabInstance: {fileID: 1788976941}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1788976962 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: -3675110487596048492, guid: 0de72b2d3b4a19642bb1cccb02572084,
+    type: 3}
+  m_PrefabInstance: {fileID: 1788976941}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1788976963 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7919310054251214000, guid: 0de72b2d3b4a19642bb1cccb02572084,
+    type: 3}
+  m_PrefabInstance: {fileID: 1788976941}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1788976964 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5208647760106110109, guid: 0de72b2d3b4a19642bb1cccb02572084,
+    type: 3}
+  m_PrefabInstance: {fileID: 1788976941}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1788976967 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: -7803017122765766718, guid: 0de72b2d3b4a19642bb1cccb02572084,
+    type: 3}
+  m_PrefabInstance: {fileID: 1788976941}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1788976968 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: -2777618476543288393, guid: 0de72b2d3b4a19642bb1cccb02572084,
+    type: 3}
+  m_PrefabInstance: {fileID: 1788976941}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1788976969 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: -7848016922876303581, guid: 0de72b2d3b4a19642bb1cccb02572084,
+    type: 3}
+  m_PrefabInstance: {fileID: 1788976941}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1788976970 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7306557380061354939, guid: 0de72b2d3b4a19642bb1cccb02572084,
+    type: 3}
+  m_PrefabInstance: {fileID: 1788976941}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1788976972 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: -1695161742044647635, guid: 0de72b2d3b4a19642bb1cccb02572084,
+    type: 3}
+  m_PrefabInstance: {fileID: 1788976941}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1788976973 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 375053517150342045, guid: 0de72b2d3b4a19642bb1cccb02572084,
+    type: 3}
+  m_PrefabInstance: {fileID: 1788976941}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1788976974 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 268765339016031829, guid: 0de72b2d3b4a19642bb1cccb02572084,
+    type: 3}
+  m_PrefabInstance: {fileID: 1788976941}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1788976975 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 9143908202765191357, guid: 0de72b2d3b4a19642bb1cccb02572084,
+    type: 3}
+  m_PrefabInstance: {fileID: 1788976941}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1788976977 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: -9198167156178811400, guid: 0de72b2d3b4a19642bb1cccb02572084,
+    type: 3}
+  m_PrefabInstance: {fileID: 1788976941}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1788976978 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: -3796985958044368996, guid: 0de72b2d3b4a19642bb1cccb02572084,
+    type: 3}
+  m_PrefabInstance: {fileID: 1788976941}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1788976979 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: -7485094284127387509, guid: 0de72b2d3b4a19642bb1cccb02572084,
+    type: 3}
+  m_PrefabInstance: {fileID: 1788976941}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1788976980 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5137655410750692623, guid: 0de72b2d3b4a19642bb1cccb02572084,
+    type: 3}
+  m_PrefabInstance: {fileID: 1788976941}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1788976981 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: -7551496919131323438, guid: 0de72b2d3b4a19642bb1cccb02572084,
+    type: 3}
+  m_PrefabInstance: {fileID: 1788976941}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1788976982 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: -7745464340136465033, guid: 0de72b2d3b4a19642bb1cccb02572084,
+    type: 3}
+  m_PrefabInstance: {fileID: 1788976941}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1788976984 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3476718687788009972, guid: 0de72b2d3b4a19642bb1cccb02572084,
+    type: 3}
+  m_PrefabInstance: {fileID: 1788976941}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1788976985 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: -6044724722381673281, guid: 0de72b2d3b4a19642bb1cccb02572084,
+    type: 3}
+  m_PrefabInstance: {fileID: 1788976941}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1788976986 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4970768318269038409, guid: 0de72b2d3b4a19642bb1cccb02572084,
+    type: 3}
+  m_PrefabInstance: {fileID: 1788976941}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1788976987 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: -2310675672546243515, guid: 0de72b2d3b4a19642bb1cccb02572084,
+    type: 3}
+  m_PrefabInstance: {fileID: 1788976941}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1788976988 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: -2715209109991556517, guid: 0de72b2d3b4a19642bb1cccb02572084,
+    type: 3}
+  m_PrefabInstance: {fileID: 1788976941}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1788976989 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: -8826331403510148028, guid: 0de72b2d3b4a19642bb1cccb02572084,
+    type: 3}
+  m_PrefabInstance: {fileID: 1788976941}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1788976990 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: -4119422840342896813, guid: 0de72b2d3b4a19642bb1cccb02572084,
+    type: 3}
+  m_PrefabInstance: {fileID: 1788976941}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1788976991 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 646506821234874953, guid: 0de72b2d3b4a19642bb1cccb02572084,
+    type: 3}
+  m_PrefabInstance: {fileID: 1788976941}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1788976992 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7973725615035196459, guid: 0de72b2d3b4a19642bb1cccb02572084,
+    type: 3}
+  m_PrefabInstance: {fileID: 1788976941}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1788976993 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: -8629556072227711523, guid: 0de72b2d3b4a19642bb1cccb02572084,
+    type: 3}
+  m_PrefabInstance: {fileID: 1788976941}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1788976994 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: -4711678544387209790, guid: 0de72b2d3b4a19642bb1cccb02572084,
+    type: 3}
+  m_PrefabInstance: {fileID: 1788976941}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1788976995 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3774481363552238197, guid: 0de72b2d3b4a19642bb1cccb02572084,
+    type: 3}
+  m_PrefabInstance: {fileID: 1788976941}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1788976996 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2536860485661137111, guid: 0de72b2d3b4a19642bb1cccb02572084,
+    type: 3}
+  m_PrefabInstance: {fileID: 1788976941}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1788976997 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: -543227557359299562, guid: 0de72b2d3b4a19642bb1cccb02572084,
+    type: 3}
+  m_PrefabInstance: {fileID: 1788976941}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1788976998 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5401656475005922642, guid: 0de72b2d3b4a19642bb1cccb02572084,
+    type: 3}
+  m_PrefabInstance: {fileID: 1788976941}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1788976999 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2225520344035866949, guid: 0de72b2d3b4a19642bb1cccb02572084,
+    type: 3}
+  m_PrefabInstance: {fileID: 1788976941}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1788977000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1788976995}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0dbf27d230a46b643baa2473b0e1521f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  partName: Left Ventricle
+--- !u!64 &1788977001
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1788976995}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 3118423584440690640, guid: 0de72b2d3b4a19642bb1cccb02572084, type: 3}
+--- !u!114 &1788977002
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1788976997}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0dbf27d230a46b643baa2473b0e1521f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  partName: Left Artium
+--- !u!64 &1788977003
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1788976997}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -1423912528519436652, guid: 0de72b2d3b4a19642bb1cccb02572084, type: 3}
+--- !u!114 &1788977004
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1788976999}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0dbf27d230a46b643baa2473b0e1521f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  partName: Interventricular Spetum
+--- !u!64 &1788977005
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1788976999}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 3995848760742219448, guid: 0de72b2d3b4a19642bb1cccb02572084, type: 3}
+--- !u!114 &1794651678
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1788976991}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0dbf27d230a46b643baa2473b0e1521f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  partName: Pulmonary Trunk
+--- !u!64 &1794651679
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1788976991}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -4711409916055678002, guid: 0de72b2d3b4a19642bb1cccb02572084, type: 3}
+--- !u!114 &1798045726
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1788976952}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0dbf27d230a46b643baa2473b0e1521f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  partName: Middle Cardiac Vein
+--- !u!64 &1798045727
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1788976952}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -7856284797279455809, guid: 0de72b2d3b4a19642bb1cccb02572084, type: 3}
+--- !u!114 &1833259197
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1788976996}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0dbf27d230a46b643baa2473b0e1521f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  partName: Left Artium
+--- !u!64 &1833259198
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1788976996}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -8739643442635734518, guid: 0de72b2d3b4a19642bb1cccb02572084, type: 3}
+--- !u!114 &1856536256
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1788976968}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0dbf27d230a46b643baa2473b0e1521f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  partName: Right Marginal Artery
+--- !u!64 &1856536257
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1788976968}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 5949438847910097977, guid: 0de72b2d3b4a19642bb1cccb02572084, type: 3}
+--- !u!114 &1865149732
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1788976969}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0dbf27d230a46b643baa2473b0e1521f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  partName: Right Marginal Artery
+--- !u!64 &1865149733
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1788976969}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -8740446408608680071, guid: 0de72b2d3b4a19642bb1cccb02572084, type: 3}
+--- !u!114 &1971224099
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1788976993}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0dbf27d230a46b643baa2473b0e1521f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  partName: Right Brachiocephalic Vein
+--- !u!64 &1971224100
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1788976993}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -1868267607722129973, guid: 0de72b2d3b4a19642bb1cccb02572084, type: 3}
+--- !u!114 &1974510840
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1788976986}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0dbf27d230a46b643baa2473b0e1521f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  partName: 'LeftPulmonary Veins '
+--- !u!64 &1974510841
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1788976986}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -29142678124704136, guid: 0de72b2d3b4a19642bb1cccb02572084, type: 3}
+--- !u!1 &2014794346
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2014794349}
+  - component: {fileID: 2014794348}
+  - component: {fileID: 2014794347}
+  m_Layer: 0
+  m_Name: EventSystem
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &2014794347
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2014794346}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4f231c4fb786f3946a6b90b886c48677, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SendPointerHoverToParent: 1
+  m_HorizontalAxis: Horizontal
+  m_VerticalAxis: Vertical
+  m_SubmitButton: Submit
+  m_CancelButton: Cancel
+  m_InputActionsPerSecond: 10
+  m_RepeatDelay: 0.5
+  m_ForceModuleActive: 0
+--- !u!114 &2014794348
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2014794346}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 76c392e42b5098c458856cdf6ecaaaa1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_FirstSelected: {fileID: 0}
+  m_sendNavigationEvents: 1
+  m_DragThreshold: 10
+--- !u!4 &2014794349
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2014794346}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2024206236
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1788976960}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0dbf27d230a46b643baa2473b0e1521f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  partName: Right Coronary Artery
+--- !u!64 &2024206237
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1788976960}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -256539958331016782, guid: 0de72b2d3b4a19642bb1cccb02572084, type: 3}
+--- !u!114 &2055942360
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1788976963}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0dbf27d230a46b643baa2473b0e1521f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  partName: Right Coronary Artery
+--- !u!64 &2055942361
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1788976963}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 3545874177119432876, guid: 0de72b2d3b4a19642bb1cccb02572084, type: 3}
+--- !u!1001 &421466018390708464
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 691554926736453092, guid: 99fa73c59aa5b8b4886d14d571781ecb,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 930524948728675203, guid: 99fa73c59aa5b8b4886d14d571781ecb,
+        type: 3}
+      propertyPath: m_Name
+      value: XR Origin (XR Rig)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2665367190775187488, guid: 99fa73c59aa5b8b4886d14d571781ecb,
+        type: 3}
+      propertyPath: inventory
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 3203723221262240781, guid: 99fa73c59aa5b8b4886d14d571781ecb,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 3564681369496765975, guid: 99fa73c59aa5b8b4886d14d571781ecb,
+        type: 3}
+      propertyPath: digPoints.Array.data[0]
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 3564681369496765975, guid: 99fa73c59aa5b8b4886d14d571781ecb,
+        type: 3}
+      propertyPath: digPoints.Array.data[1]
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 3564681369496765975, guid: 99fa73c59aa5b8b4886d14d571781ecb,
+        type: 3}
+      propertyPath: digPoints.Array.data[2]
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 8125273097837043245, guid: 99fa73c59aa5b8b4886d14d571781ecb,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 2.72
+      objectReference: {fileID: 0}
+    - target: {fileID: 8125273097837043245, guid: 99fa73c59aa5b8b4886d14d571781ecb,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8125273097837043245, guid: 99fa73c59aa5b8b4886d14d571781ecb,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8125273097837043245, guid: 99fa73c59aa5b8b4886d14d571781ecb,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8125273097837043245, guid: 99fa73c59aa5b8b4886d14d571781ecb,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8125273097837043245, guid: 99fa73c59aa5b8b4886d14d571781ecb,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8125273097837043245, guid: 99fa73c59aa5b8b4886d14d571781ecb,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8125273097837043245, guid: 99fa73c59aa5b8b4886d14d571781ecb,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8125273097837043245, guid: 99fa73c59aa5b8b4886d14d571781ecb,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8125273097837043245, guid: 99fa73c59aa5b8b4886d14d571781ecb,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8796750411223829848, guid: 99fa73c59aa5b8b4886d14d571781ecb,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: 3564681369496765975, guid: 99fa73c59aa5b8b4886d14d571781ecb, type: 3}
+    m_RemovedGameObjects:
+    - {fileID: 3336893461031157144, guid: 99fa73c59aa5b8b4886d14d571781ecb, type: 3}
+    m_AddedGameObjects: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 4124171330933949293, guid: 99fa73c59aa5b8b4886d14d571781ecb,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1310006026}
+    - targetCorrespondingSourceObject: {fileID: 4124171330933949293, guid: 99fa73c59aa5b8b4886d14d571781ecb,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1310006025}
+    - targetCorrespondingSourceObject: {fileID: 4124171330933949293, guid: 99fa73c59aa5b8b4886d14d571781ecb,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1310006024}
+    - targetCorrespondingSourceObject: {fileID: 2001090777503802966, guid: 99fa73c59aa5b8b4886d14d571781ecb,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 416177519}
+    - targetCorrespondingSourceObject: {fileID: 2001090777503802966, guid: 99fa73c59aa5b8b4886d14d571781ecb,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 416177518}
+    - targetCorrespondingSourceObject: {fileID: 2001090777503802966, guid: 99fa73c59aa5b8b4886d14d571781ecb,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 416177517}
+    - targetCorrespondingSourceObject: {fileID: 2001090777503802966, guid: 99fa73c59aa5b8b4886d14d571781ecb,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 416177521}
+  m_SourcePrefab: {fileID: 100100000, guid: 99fa73c59aa5b8b4886d14d571781ecb, type: 3}
+--- !u!1660057539 &9223372036854775807
+SceneRoots:
+  m_ObjectHideFlags: 0
+  m_Roots:
+  - {fileID: 410087041}
+  - {fileID: 421466018390708464}
+  - {fileID: 815669148}
+  - {fileID: 1788976941}
+  - {fileID: 957508851}
+  - {fileID: 1492047530}
+  - {fileID: 1760800032}
+  - {fileID: 2014794349}
